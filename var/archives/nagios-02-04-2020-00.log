@@ -1,0 +1,1429 @@
+[1580688000] LOG ROTATION: DAILY
+[1580688000] LOG VERSION: 2.0
+[1580688000] CURRENT HOST STATE: Dial4trade.in;DOWN;HARD;10;(Host check timed out after 30.03 seconds)
+[1580688000] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1580688000] CURRENT SERVICE STATE: Dial4trade.in;CPU Load;CRITICAL;HARD;3;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1580688000] CURRENT SERVICE STATE: Dial4trade.in;Current Users;CRITICAL;HARD;1;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1580688000] CURRENT SERVICE STATE: Dial4trade.in;FTP Monitoring;CRITICAL;HARD;3;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1580688000] CURRENT SERVICE STATE: Dial4trade.in;SSH Monitoring;CRITICAL;HARD;3;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1580688000] CURRENT SERVICE STATE: Dial4trade.in;Total Processes;CRITICAL;HARD;1;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1580688000] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1580688000] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1580688000] CURRENT SERVICE STATE: localhost;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 296 bytes in 0.000 second response time
+[1580688000] CURRENT SERVICE STATE: localhost;Memory monitoring;OK;HARD;1;8.90%
+[1580688000] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1580688000] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 8365 MB (81.78% inode=99%):
+[1580688000] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.4 (protocol 2.0)
+[1580688000] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (511 MB out of 511 MB)
+[1580688000] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 33 processes with STATE = RSZDT
+[1580688030] HOST NOTIFICATION: nagiosadmin;Dial4trade.in;DOWN;notify-host-by-email;(Host check timed out after 30.03 seconds)
+[1580688030] wproc: NOTIFY job 5589 from worker Core Worker 8829 is a non-check helper but exited with return code 75
+[1580688030] wproc:   host=Dial4trade.in; service=(none); contact=nagiosadmin
+[1580688030] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580688030] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580688030] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580688030] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580688030] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580688243] wproc: Core Worker 8829: job 5590 (pid=30703) timed out. Killing it
+[1580688243] wproc: CHECK job 5590 from worker Core Worker 8829 timed out after 30.01s
+[1580688243] wproc:   host=Dial4trade.in; service=(null);
+[1580688243] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580688243] Warning: Check of host 'Dial4trade.in' timed out after 30.01 seconds
+[1580688243] wproc: Core Worker 8829: job 5590 (pid=30703): Dormant child reaped
+[1580688543] wproc: Core Worker 8829: job 5593 (pid=30729) timed out. Killing it
+[1580688543] wproc: CHECK job 5593 from worker Core Worker 8829 timed out after 30.04s
+[1580688543] wproc:   host=Dial4trade.in; service=(null);
+[1580688543] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580688543] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580688543] wproc: Core Worker 8829: job 5593 (pid=30729): Dormant child reaped
+[1580688843] wproc: Core Worker 8828: job 5597 (pid=30758) timed out. Killing it
+[1580688843] wproc: CHECK job 5597 from worker Core Worker 8828 timed out after 30.04s
+[1580688843] wproc:   host=Dial4trade.in; service=(null);
+[1580688843] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580688843] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580688843] wproc: Core Worker 8828: job 5597 (pid=30758): Dormant child reaped
+[1580689143] wproc: Core Worker 8828: job 5600 (pid=30784) timed out. Killing it
+[1580689143] wproc: CHECK job 5600 from worker Core Worker 8828 timed out after 30.03s
+[1580689143] wproc:   host=Dial4trade.in; service=(null);
+[1580689143] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580689143] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580689143] wproc: Core Worker 8828: job 5600 (pid=30784): Dormant child reaped
+[1580689443] wproc: Core Worker 8827: job 5604 (pid=30813) timed out. Killing it
+[1580689443] wproc: CHECK job 5604 from worker Core Worker 8827 timed out after 30.03s
+[1580689443] wproc:   host=Dial4trade.in; service=(null);
+[1580689443] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580689443] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580689443] wproc: Core Worker 8827: job 5604 (pid=30813): Dormant child reaped
+[1580689743] wproc: Core Worker 8827: job 5607 (pid=30839) timed out. Killing it
+[1580689743] wproc: CHECK job 5607 from worker Core Worker 8827 timed out after 30.04s
+[1580689743] wproc:   host=Dial4trade.in; service=(null);
+[1580689743] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580689743] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580689743] wproc: Core Worker 8827: job 5607 (pid=30839): Dormant child reaped
+[1580689830] HOST NOTIFICATION: nagiosadmin;Dial4trade.in;DOWN;notify-host-by-email;(Host check timed out after 30.04 seconds)
+[1580689830] wproc: NOTIFY job 5610 from worker Core Worker 8827 is a non-check helper but exited with return code 75
+[1580689830] wproc:   host=Dial4trade.in; service=(none); contact=nagiosadmin
+[1580689830] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580689830] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580689830] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580689830] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580689830] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580690043] wproc: Core Worker 8827: job 5611 (pid=30892) timed out. Killing it
+[1580690043] wproc: CHECK job 5611 from worker Core Worker 8827 timed out after 30.01s
+[1580690043] wproc:   host=Dial4trade.in; service=(null);
+[1580690043] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580690043] Warning: Check of host 'Dial4trade.in' timed out after 30.01 seconds
+[1580690043] wproc: Core Worker 8827: job 5611 (pid=30892): Dormant child reaped
+[1580690343] wproc: Core Worker 8827: job 5614 (pid=30918) timed out. Killing it
+[1580690343] wproc: CHECK job 5614 from worker Core Worker 8827 timed out after 30.03s
+[1580690343] wproc:   host=Dial4trade.in; service=(null);
+[1580690343] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580690343] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580690343] wproc: Core Worker 8827: job 5614 (pid=30918): Dormant child reaped
+[1580690643] wproc: Core Worker 8830: job 5618 (pid=30947) timed out. Killing it
+[1580690643] wproc: CHECK job 5618 from worker Core Worker 8830 timed out after 30.04s
+[1580690643] wproc:   host=Dial4trade.in; service=(null);
+[1580690643] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580690643] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580690643] wproc: Core Worker 8830: job 5618 (pid=30947): Dormant child reaped
+[1580690672] Auto-save of retention data completed successfully.
+[1580690943] wproc: Core Worker 8830: job 5621 (pid=30973) timed out. Killing it
+[1580690943] wproc: CHECK job 5621 from worker Core Worker 8830 timed out after 30.04s
+[1580690943] wproc:   host=Dial4trade.in; service=(null);
+[1580690943] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580690943] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580690943] wproc: Core Worker 8830: job 5621 (pid=30973): Dormant child reaped
+[1580691243] wproc: Core Worker 8829: job 5624 (pid=31001) timed out. Killing it
+[1580691243] wproc: CHECK job 5624 from worker Core Worker 8829 timed out after 30.04s
+[1580691243] wproc:   host=Dial4trade.in; service=(null);
+[1580691243] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580691243] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580691243] wproc: Core Worker 8829: job 5624 (pid=31001): Dormant child reaped
+[1580691543] wproc: Core Worker 8829: job 5627 (pid=31027) timed out. Killing it
+[1580691543] wproc: CHECK job 5627 from worker Core Worker 8829 timed out after 30.02s
+[1580691543] wproc:   host=Dial4trade.in; service=(null);
+[1580691543] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580691543] Warning: Check of host 'Dial4trade.in' timed out after 30.02 seconds
+[1580691543] wproc: Core Worker 8829: job 5627 (pid=31027): Dormant child reaped
+[1580691630] HOST NOTIFICATION: nagiosadmin;Dial4trade.in;DOWN;notify-host-by-email;(Host check timed out after 30.02 seconds)
+[1580691630] wproc: NOTIFY job 5630 from worker Core Worker 8829 is a non-check helper but exited with return code 75
+[1580691630] wproc:   host=Dial4trade.in; service=(none); contact=nagiosadmin
+[1580691630] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580691630] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580691630] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580691630] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580691630] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580691843] wproc: Core Worker 8829: job 5631 (pid=31097) timed out. Killing it
+[1580691843] wproc: CHECK job 5631 from worker Core Worker 8829 timed out after 30.02s
+[1580691843] wproc:   host=Dial4trade.in; service=(null);
+[1580691843] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580691843] Warning: Check of host 'Dial4trade.in' timed out after 30.02 seconds
+[1580691843] wproc: Core Worker 8829: job 5631 (pid=31097): Dormant child reaped
+[1580692143] wproc: Core Worker 8829: job 5634 (pid=31122) timed out. Killing it
+[1580692143] wproc: CHECK job 5634 from worker Core Worker 8829 timed out after 30.03s
+[1580692143] wproc:   host=Dial4trade.in; service=(null);
+[1580692143] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580692143] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580692143] wproc: Core Worker 8829: job 5634 (pid=31122): Dormant child reaped
+[1580692443] wproc: Core Worker 8828: job 5638 (pid=31151) timed out. Killing it
+[1580692443] wproc: CHECK job 5638 from worker Core Worker 8828 timed out after 30.04s
+[1580692443] wproc:   host=Dial4trade.in; service=(null);
+[1580692443] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580692443] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580692443] wproc: Core Worker 8828: job 5638 (pid=31151): Dormant child reaped
+[1580692743] wproc: Core Worker 8828: job 5641 (pid=31176) timed out. Killing it
+[1580692743] wproc: CHECK job 5641 from worker Core Worker 8828 timed out after 30.04s
+[1580692743] wproc:   host=Dial4trade.in; service=(null);
+[1580692743] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580692743] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580692743] wproc: Core Worker 8828: job 5641 (pid=31176): Dormant child reaped
+[1580693043] wproc: Core Worker 8827: job 5645 (pid=31205) timed out. Killing it
+[1580693043] wproc: CHECK job 5645 from worker Core Worker 8827 timed out after 30.03s
+[1580693043] wproc:   host=Dial4trade.in; service=(null);
+[1580693043] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580693043] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580693043] wproc: Core Worker 8827: job 5645 (pid=31205): Dormant child reaped
+[1580693343] wproc: Core Worker 8827: job 5648 (pid=31252) timed out. Killing it
+[1580693343] wproc: CHECK job 5648 from worker Core Worker 8827 timed out after 30.04s
+[1580693343] wproc:   host=Dial4trade.in; service=(null);
+[1580693343] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580693343] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580693344] wproc: Core Worker 8827: job 5648 (pid=31252): Dormant child reaped
+[1580693430] HOST NOTIFICATION: nagiosadmin;Dial4trade.in;DOWN;notify-host-by-email;(Host check timed out after 30.04 seconds)
+[1580693431] wproc: NOTIFY job 5651 from worker Core Worker 8827 is a non-check helper but exited with return code 75
+[1580693431] wproc:   host=Dial4trade.in; service=(none); contact=nagiosadmin
+[1580693431] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580693431] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580693431] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580693431] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580693431] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580693643] wproc: Core Worker 8827: job 5652 (pid=31284) timed out. Killing it
+[1580693643] wproc: CHECK job 5652 from worker Core Worker 8827 timed out after 30.03s
+[1580693643] wproc:   host=Dial4trade.in; service=(null);
+[1580693643] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580693643] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580693644] wproc: Core Worker 8827: job 5652 (pid=31284): Dormant child reaped
+[1580693943] wproc: Core Worker 8827: job 5655 (pid=31311) timed out. Killing it
+[1580693943] wproc: CHECK job 5655 from worker Core Worker 8827 timed out after 30.01s
+[1580693943] wproc:   host=Dial4trade.in; service=(null);
+[1580693943] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580693943] Warning: Check of host 'Dial4trade.in' timed out after 30.01 seconds
+[1580693944] wproc: Core Worker 8827: job 5655 (pid=31311): Dormant child reaped
+[1580694243] wproc: Core Worker 8830: job 5659 (pid=31339) timed out. Killing it
+[1580694243] wproc: CHECK job 5659 from worker Core Worker 8830 timed out after 30.01s
+[1580694243] wproc:   host=Dial4trade.in; service=(null);
+[1580694243] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580694243] Warning: Check of host 'Dial4trade.in' timed out after 30.01 seconds
+[1580694244] wproc: Core Worker 8830: job 5659 (pid=31339): Dormant child reaped
+[1580694272] Auto-save of retention data completed successfully.
+[1580694543] wproc: Core Worker 8830: job 5662 (pid=31365) timed out. Killing it
+[1580694543] wproc: CHECK job 5662 from worker Core Worker 8830 timed out after 30.04s
+[1580694543] wproc:   host=Dial4trade.in; service=(null);
+[1580694543] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580694543] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580694544] wproc: Core Worker 8830: job 5662 (pid=31365): Dormant child reaped
+[1580694843] wproc: Core Worker 8829: job 5665 (pid=31416) timed out. Killing it
+[1580694843] wproc: CHECK job 5665 from worker Core Worker 8829 timed out after 30.04s
+[1580694843] wproc:   host=Dial4trade.in; service=(null);
+[1580694843] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580694843] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580694844] wproc: Core Worker 8829: job 5665 (pid=31416): Dormant child reaped
+[1580695143] wproc: Core Worker 8829: job 5668 (pid=31441) timed out. Killing it
+[1580695143] wproc: CHECK job 5668 from worker Core Worker 8829 timed out after 30.03s
+[1580695143] wproc:   host=Dial4trade.in; service=(null);
+[1580695143] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580695143] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580695144] wproc: Core Worker 8829: job 5668 (pid=31441): Dormant child reaped
+[1580695230] HOST NOTIFICATION: nagiosadmin;Dial4trade.in;DOWN;notify-host-by-email;(Host check timed out after 30.03 seconds)
+[1580695230] wproc: NOTIFY job 5671 from worker Core Worker 8829 is a non-check helper but exited with return code 75
+[1580695230] wproc:   host=Dial4trade.in; service=(none); contact=nagiosadmin
+[1580695230] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580695230] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580695230] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580695230] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580695230] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580695444] wproc: Core Worker 8829: job 5672 (pid=31489) timed out. Killing it
+[1580695444] wproc: CHECK job 5672 from worker Core Worker 8829 timed out after 30.03s
+[1580695444] wproc:   host=Dial4trade.in; service=(null);
+[1580695444] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580695444] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580695444] wproc: Core Worker 8829: job 5672 (pid=31489): Dormant child reaped
+[1580695743] wproc: Core Worker 8829: job 5675 (pid=31515) timed out. Killing it
+[1580695743] wproc: CHECK job 5675 from worker Core Worker 8829 timed out after 30.04s
+[1580695743] wproc:   host=Dial4trade.in; service=(null);
+[1580695743] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580695743] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580695743] wproc: Core Worker 8829: job 5675 (pid=31515): Dormant child reaped
+[1580696043] wproc: Core Worker 8828: job 5679 (pid=31543) timed out. Killing it
+[1580696043] wproc: CHECK job 5679 from worker Core Worker 8828 timed out after 30.01s
+[1580696043] wproc:   host=Dial4trade.in; service=(null);
+[1580696043] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580696043] Warning: Check of host 'Dial4trade.in' timed out after 30.01 seconds
+[1580696043] wproc: Core Worker 8828: job 5679 (pid=31543): Dormant child reaped
+[1580696343] wproc: Core Worker 8828: job 5682 (pid=31569) timed out. Killing it
+[1580696343] wproc: CHECK job 5682 from worker Core Worker 8828 timed out after 30.03s
+[1580696343] wproc:   host=Dial4trade.in; service=(null);
+[1580696343] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580696343] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580696343] wproc: Core Worker 8828: job 5682 (pid=31569): Dormant child reaped
+[1580696643] wproc: Core Worker 8827: job 5686 (pid=31620) timed out. Killing it
+[1580696643] wproc: CHECK job 5686 from worker Core Worker 8827 timed out after 30.04s
+[1580696643] wproc:   host=Dial4trade.in; service=(null);
+[1580696643] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580696643] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580696643] wproc: Core Worker 8827: job 5686 (pid=31620): Dormant child reaped
+[1580696943] wproc: Core Worker 8827: job 5689 (pid=31645) timed out. Killing it
+[1580696943] wproc: CHECK job 5689 from worker Core Worker 8827 timed out after 30.04s
+[1580696943] wproc:   host=Dial4trade.in; service=(null);
+[1580696943] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580696943] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580696943] wproc: Core Worker 8827: job 5689 (pid=31645): Dormant child reaped
+[1580697030] HOST NOTIFICATION: nagiosadmin;Dial4trade.in;DOWN;notify-host-by-email;(Host check timed out after 30.04 seconds)
+[1580697030] wproc: NOTIFY job 5692 from worker Core Worker 8827 is a non-check helper but exited with return code 75
+[1580697030] wproc:   host=Dial4trade.in; service=(none); contact=nagiosadmin
+[1580697030] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580697030] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580697030] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580697030] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580697030] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580697243] wproc: Core Worker 8827: job 5693 (pid=31676) timed out. Killing it
+[1580697243] wproc: CHECK job 5693 from worker Core Worker 8827 timed out after 30.04s
+[1580697243] wproc:   host=Dial4trade.in; service=(null);
+[1580697243] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580697243] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580697243] wproc: Core Worker 8827: job 5693 (pid=31676): Dormant child reaped
+[1580697543] wproc: Core Worker 8827: job 5696 (pid=31702) timed out. Killing it
+[1580697543] wproc: CHECK job 5696 from worker Core Worker 8827 timed out after 30.01s
+[1580697543] wproc:   host=Dial4trade.in; service=(null);
+[1580697543] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580697543] Warning: Check of host 'Dial4trade.in' timed out after 30.01 seconds
+[1580697543] wproc: Core Worker 8827: job 5696 (pid=31702): Dormant child reaped
+[1580697843] wproc: Core Worker 8830: job 5700 (pid=31731) timed out. Killing it
+[1580697843] wproc: CHECK job 5700 from worker Core Worker 8830 timed out after 30.01s
+[1580697843] wproc:   host=Dial4trade.in; service=(null);
+[1580697843] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580697843] Warning: Check of host 'Dial4trade.in' timed out after 30.01 seconds
+[1580697843] wproc: Core Worker 8830: job 5700 (pid=31731): Dormant child reaped
+[1580697872] Auto-save of retention data completed successfully.
+[1580698143] wproc: Core Worker 8830: job 5703 (pid=31778) timed out. Killing it
+[1580698143] wproc: CHECK job 5703 from worker Core Worker 8830 timed out after 30.01s
+[1580698143] wproc:   host=Dial4trade.in; service=(null);
+[1580698143] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580698143] Warning: Check of host 'Dial4trade.in' timed out after 30.01 seconds
+[1580698143] wproc: Core Worker 8830: job 5703 (pid=31778): Dormant child reaped
+[1580698443] wproc: Core Worker 8829: job 5706 (pid=31807) timed out. Killing it
+[1580698443] wproc: CHECK job 5706 from worker Core Worker 8829 timed out after 30.04s
+[1580698443] wproc:   host=Dial4trade.in; service=(null);
+[1580698443] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580698443] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580698443] wproc: Core Worker 8829: job 5706 (pid=31807): Dormant child reaped
+[1580698743] wproc: Core Worker 8829: job 5709 (pid=31833) timed out. Killing it
+[1580698743] wproc: CHECK job 5709 from worker Core Worker 8829 timed out after 30.03s
+[1580698743] wproc:   host=Dial4trade.in; service=(null);
+[1580698743] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580698743] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580698743] wproc: Core Worker 8829: job 5709 (pid=31833): Dormant child reaped
+[1580698830] HOST NOTIFICATION: nagiosadmin;Dial4trade.in;DOWN;notify-host-by-email;(Host check timed out after 30.03 seconds)
+[1580698830] wproc: NOTIFY job 5712 from worker Core Worker 8829 is a non-check helper but exited with return code 75
+[1580698830] wproc:   host=Dial4trade.in; service=(none); contact=nagiosadmin
+[1580698830] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580698830] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580698830] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580698830] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580698830] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580699043] wproc: Core Worker 8829: job 5713 (pid=31877) timed out. Killing it
+[1580699043] wproc: CHECK job 5713 from worker Core Worker 8829 timed out after 30.03s
+[1580699043] wproc:   host=Dial4trade.in; service=(null);
+[1580699043] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580699043] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580699043] wproc: Core Worker 8829: job 5713 (pid=31877): Dormant child reaped
+[1580699343] wproc: Core Worker 8829: job 5716 (pid=31903) timed out. Killing it
+[1580699343] wproc: CHECK job 5716 from worker Core Worker 8829 timed out after 30.04s
+[1580699343] wproc:   host=Dial4trade.in; service=(null);
+[1580699343] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580699343] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580699343] wproc: Core Worker 8829: job 5716 (pid=31903): Dormant child reaped
+[1580699643] wproc: Core Worker 8828: job 5720 (pid=31932) timed out. Killing it
+[1580699643] wproc: CHECK job 5720 from worker Core Worker 8828 timed out after 30.01s
+[1580699643] wproc:   host=Dial4trade.in; service=(null);
+[1580699643] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580699643] Warning: Check of host 'Dial4trade.in' timed out after 30.01 seconds
+[1580699643] wproc: Core Worker 8828: job 5720 (pid=31932): Dormant child reaped
+[1580699943] wproc: Core Worker 8828: job 5723 (pid=31980) timed out. Killing it
+[1580699943] wproc: CHECK job 5723 from worker Core Worker 8828 timed out after 30.03s
+[1580699943] wproc:   host=Dial4trade.in; service=(null);
+[1580699943] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580699943] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580699943] wproc: Core Worker 8828: job 5723 (pid=31980): Dormant child reaped
+[1580700243] wproc: Core Worker 8827: job 5727 (pid=32009) timed out. Killing it
+[1580700243] wproc: CHECK job 5727 from worker Core Worker 8827 timed out after 30.03s
+[1580700243] wproc:   host=Dial4trade.in; service=(null);
+[1580700243] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580700243] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580700243] wproc: Core Worker 8827: job 5727 (pid=32009): Dormant child reaped
+[1580700543] wproc: Core Worker 8827: job 5730 (pid=32035) timed out. Killing it
+[1580700543] wproc: CHECK job 5730 from worker Core Worker 8827 timed out after 30.04s
+[1580700543] wproc:   host=Dial4trade.in; service=(null);
+[1580700543] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580700543] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580700543] wproc: Core Worker 8827: job 5730 (pid=32035): Dormant child reaped
+[1580700630] HOST NOTIFICATION: nagiosadmin;Dial4trade.in;DOWN;notify-host-by-email;(Host check timed out after 30.04 seconds)
+[1580700630] wproc: NOTIFY job 5733 from worker Core Worker 8827 is a non-check helper but exited with return code 75
+[1580700630] wproc:   host=Dial4trade.in; service=(none); contact=nagiosadmin
+[1580700630] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580700630] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580700630] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580700630] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580700630] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580700843] wproc: Core Worker 8827: job 5734 (pid=32088) timed out. Killing it
+[1580700843] wproc: CHECK job 5734 from worker Core Worker 8827 timed out after 30.04s
+[1580700843] wproc:   host=Dial4trade.in; service=(null);
+[1580700843] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580700843] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580700843] wproc: Core Worker 8827: job 5734 (pid=32088): Dormant child reaped
+[1580701143] wproc: Core Worker 8827: job 5737 (pid=32114) timed out. Killing it
+[1580701143] wproc: CHECK job 5737 from worker Core Worker 8827 timed out after 30.01s
+[1580701143] wproc:   host=Dial4trade.in; service=(null);
+[1580701143] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580701143] Warning: Check of host 'Dial4trade.in' timed out after 30.01 seconds
+[1580701144] wproc: Core Worker 8827: job 5737 (pid=32114): Dormant child reaped
+[1580701443] wproc: Core Worker 8830: job 5741 (pid=32165) timed out. Killing it
+[1580701443] wproc: CHECK job 5741 from worker Core Worker 8830 timed out after 30.03s
+[1580701443] wproc:   host=Dial4trade.in; service=(null);
+[1580701443] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580701443] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580701444] wproc: Core Worker 8830: job 5741 (pid=32165): Dormant child reaped
+[1580701472] Auto-save of retention data completed successfully.
+[1580701743] wproc: Core Worker 8830: job 5744 (pid=32190) timed out. Killing it
+[1580701743] wproc: CHECK job 5744 from worker Core Worker 8830 timed out after 30.03s
+[1580701743] wproc:   host=Dial4trade.in; service=(null);
+[1580701743] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580701743] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580701744] wproc: Core Worker 8830: job 5744 (pid=32190): Dormant child reaped
+[1580702043] wproc: Core Worker 8829: job 5747 (pid=32218) timed out. Killing it
+[1580702043] wproc: CHECK job 5747 from worker Core Worker 8829 timed out after 30.01s
+[1580702043] wproc:   host=Dial4trade.in; service=(null);
+[1580702043] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580702043] Warning: Check of host 'Dial4trade.in' timed out after 30.01 seconds
+[1580702044] wproc: Core Worker 8829: job 5747 (pid=32218): Dormant child reaped
+[1580702343] wproc: Core Worker 8829: job 5750 (pid=32244) timed out. Killing it
+[1580702343] wproc: CHECK job 5750 from worker Core Worker 8829 timed out after 30.03s
+[1580702343] wproc:   host=Dial4trade.in; service=(null);
+[1580702343] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580702343] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580702344] wproc: Core Worker 8829: job 5750 (pid=32244): Dormant child reaped
+[1580702430] HOST NOTIFICATION: nagiosadmin;Dial4trade.in;DOWN;notify-host-by-email;(Host check timed out after 30.03 seconds)
+[1580702430] wproc: NOTIFY job 5753 from worker Core Worker 8829 is a non-check helper but exited with return code 75
+[1580702430] wproc:   host=Dial4trade.in; service=(none); contact=nagiosadmin
+[1580702430] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580702430] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580702430] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580702430] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580702430] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580702643] wproc: Core Worker 8829: job 5754 (pid=32290) timed out. Killing it
+[1580702643] wproc: CHECK job 5754 from worker Core Worker 8829 timed out after 30.03s
+[1580702643] wproc:   host=Dial4trade.in; service=(null);
+[1580702643] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580702643] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580702644] wproc: Core Worker 8829: job 5754 (pid=32290): Dormant child reaped
+[1580702944] wproc: Core Worker 8829: job 5757 (pid=32337) timed out. Killing it
+[1580702944] wproc: CHECK job 5757 from worker Core Worker 8829 timed out after 30.04s
+[1580702944] wproc:   host=Dial4trade.in; service=(null);
+[1580702944] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580702944] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580702944] wproc: Core Worker 8829: job 5757 (pid=32337): Dormant child reaped
+[1580703243] wproc: Core Worker 8828: job 5761 (pid=32366) timed out. Killing it
+[1580703243] wproc: CHECK job 5761 from worker Core Worker 8828 timed out after 30.04s
+[1580703243] wproc:   host=Dial4trade.in; service=(null);
+[1580703243] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580703243] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580703243] wproc: Core Worker 8828: job 5761 (pid=32366): Dormant child reaped
+[1580703543] wproc: Core Worker 8828: job 5764 (pid=32392) timed out. Killing it
+[1580703543] wproc: CHECK job 5764 from worker Core Worker 8828 timed out after 30.03s
+[1580703543] wproc:   host=Dial4trade.in; service=(null);
+[1580703543] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580703543] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580703543] wproc: Core Worker 8828: job 5764 (pid=32392): Dormant child reaped
+[1580703843] wproc: Core Worker 8827: job 5768 (pid=32420) timed out. Killing it
+[1580703843] wproc: CHECK job 5768 from worker Core Worker 8827 timed out after 30.04s
+[1580703843] wproc:   host=Dial4trade.in; service=(null);
+[1580703843] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580703843] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580703843] wproc: Core Worker 8827: job 5768 (pid=32420): Dormant child reaped
+[1580704143] wproc: Core Worker 8827: job 5771 (pid=32446) timed out. Killing it
+[1580704143] wproc: CHECK job 5771 from worker Core Worker 8827 timed out after 30.01s
+[1580704143] wproc:   host=Dial4trade.in; service=(null);
+[1580704143] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580704143] Warning: Check of host 'Dial4trade.in' timed out after 30.01 seconds
+[1580704143] wproc: Core Worker 8827: job 5771 (pid=32446): Dormant child reaped
+[1580704230] HOST NOTIFICATION: nagiosadmin;Dial4trade.in;DOWN;notify-host-by-email;(Host check timed out after 30.01 seconds)
+[1580704230] wproc: NOTIFY job 5774 from worker Core Worker 8827 is a non-check helper but exited with return code 75
+[1580704230] wproc:   host=Dial4trade.in; service=(none); contact=nagiosadmin
+[1580704230] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580704230] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580704230] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580704230] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580704230] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580704443] wproc: Core Worker 8827: job 5775 (pid=32478) timed out. Killing it
+[1580704443] wproc: CHECK job 5775 from worker Core Worker 8827 timed out after 30.04s
+[1580704443] wproc:   host=Dial4trade.in; service=(null);
+[1580704443] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580704443] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580704443] wproc: Core Worker 8827: job 5775 (pid=32478): Dormant child reaped
+[1580704743] wproc: Core Worker 8827: job 5778 (pid=32525) timed out. Killing it
+[1580704743] wproc: CHECK job 5778 from worker Core Worker 8827 timed out after 30.04s
+[1580704743] wproc:   host=Dial4trade.in; service=(null);
+[1580704743] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580704743] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580704743] wproc: Core Worker 8827: job 5778 (pid=32525): Dormant child reaped
+[1580705043] wproc: Core Worker 8830: job 5782 (pid=32554) timed out. Killing it
+[1580705043] wproc: CHECK job 5782 from worker Core Worker 8830 timed out after 30.01s
+[1580705043] wproc:   host=Dial4trade.in; service=(null);
+[1580705043] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580705043] Warning: Check of host 'Dial4trade.in' timed out after 30.01 seconds
+[1580705043] wproc: Core Worker 8830: job 5782 (pid=32554): Dormant child reaped
+[1580705072] Auto-save of retention data completed successfully.
+[1580705343] wproc: Core Worker 8830: job 5785 (pid=32580) timed out. Killing it
+[1580705343] wproc: CHECK job 5785 from worker Core Worker 8830 timed out after 30.04s
+[1580705343] wproc:   host=Dial4trade.in; service=(null);
+[1580705343] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580705343] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580705343] wproc: Core Worker 8830: job 5785 (pid=32580): Dormant child reaped
+[1580705643] wproc: Core Worker 8829: job 5788 (pid=32608) timed out. Killing it
+[1580705643] wproc: CHECK job 5788 from worker Core Worker 8829 timed out after 30.04s
+[1580705643] wproc:   host=Dial4trade.in; service=(null);
+[1580705643] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580705643] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580705643] wproc: Core Worker 8829: job 5788 (pid=32608): Dormant child reaped
+[1580705943] wproc: Core Worker 8829: job 5791 (pid=32635) timed out. Killing it
+[1580705943] wproc: CHECK job 5791 from worker Core Worker 8829 timed out after 30.04s
+[1580705943] wproc:   host=Dial4trade.in; service=(null);
+[1580705943] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580705943] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580705943] wproc: Core Worker 8829: job 5791 (pid=32635): Dormant child reaped
+[1580706030] HOST NOTIFICATION: nagiosadmin;Dial4trade.in;DOWN;notify-host-by-email;(Host check timed out after 30.04 seconds)
+[1580706030] wproc: NOTIFY job 5794 from worker Core Worker 8829 is a non-check helper but exited with return code 75
+[1580706030] wproc:   host=Dial4trade.in; service=(none); contact=nagiosadmin
+[1580706030] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580706030] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580706030] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580706030] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580706030] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580706243] wproc: Core Worker 8829: job 5795 (pid=32702) timed out. Killing it
+[1580706243] wproc: CHECK job 5795 from worker Core Worker 8829 timed out after 30.02s
+[1580706243] wproc:   host=Dial4trade.in; service=(null);
+[1580706243] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580706243] Warning: Check of host 'Dial4trade.in' timed out after 30.02 seconds
+[1580706243] wproc: Core Worker 8829: job 5795 (pid=32702): Dormant child reaped
+[1580706543] wproc: Core Worker 8829: job 5798 (pid=32728) timed out. Killing it
+[1580706543] wproc: CHECK job 5798 from worker Core Worker 8829 timed out after 30.02s
+[1580706543] wproc:   host=Dial4trade.in; service=(null);
+[1580706543] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580706543] Warning: Check of host 'Dial4trade.in' timed out after 30.02 seconds
+[1580706543] wproc: Core Worker 8829: job 5798 (pid=32728): Dormant child reaped
+[1580706843] wproc: Core Worker 8828: job 5802 (pid=32756) timed out. Killing it
+[1580706843] wproc: CHECK job 5802 from worker Core Worker 8828 timed out after 30.02s
+[1580706843] wproc:   host=Dial4trade.in; service=(null);
+[1580706843] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580706843] Warning: Check of host 'Dial4trade.in' timed out after 30.02 seconds
+[1580706843] wproc: Core Worker 8828: job 5802 (pid=32756): Dormant child reaped
+[1580707143] wproc: Core Worker 8828: job 5805 (pid=314) timed out. Killing it
+[1580707143] wproc: CHECK job 5805 from worker Core Worker 8828 timed out after 30.04s
+[1580707143] wproc:   host=Dial4trade.in; service=(null);
+[1580707143] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580707143] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580707143] wproc: Core Worker 8828: job 5805 (pid=314): Dormant child reaped
+[1580707443] wproc: Core Worker 8827: job 5809 (pid=343) timed out. Killing it
+[1580707443] wproc: CHECK job 5809 from worker Core Worker 8827 timed out after 30.01s
+[1580707443] wproc:   host=Dial4trade.in; service=(null);
+[1580707443] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580707443] Warning: Check of host 'Dial4trade.in' timed out after 30.01 seconds
+[1580707443] wproc: Core Worker 8827: job 5809 (pid=343): Dormant child reaped
+[1580707743] wproc: Core Worker 8827: job 5812 (pid=368) timed out. Killing it
+[1580707743] wproc: CHECK job 5812 from worker Core Worker 8827 timed out after 30.04s
+[1580707743] wproc:   host=Dial4trade.in; service=(null);
+[1580707743] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580707743] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580707743] wproc: Core Worker 8827: job 5812 (pid=368): Dormant child reaped
+[1580707830] HOST NOTIFICATION: nagiosadmin;Dial4trade.in;DOWN;notify-host-by-email;(Host check timed out after 30.04 seconds)
+[1580707830] wproc: NOTIFY job 5815 from worker Core Worker 8827 is a non-check helper but exited with return code 75
+[1580707830] wproc:   host=Dial4trade.in; service=(none); contact=nagiosadmin
+[1580707830] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580707830] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580707830] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580707830] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580707830] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580708043] wproc: Core Worker 8827: job 5816 (pid=422) timed out. Killing it
+[1580708043] wproc: CHECK job 5816 from worker Core Worker 8827 timed out after 30.03s
+[1580708043] wproc:   host=Dial4trade.in; service=(null);
+[1580708043] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580708043] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580708043] wproc: Core Worker 8827: job 5816 (pid=422): Dormant child reaped
+[1580708343] wproc: Core Worker 8827: job 5819 (pid=448) timed out. Killing it
+[1580708343] wproc: CHECK job 5819 from worker Core Worker 8827 timed out after 30.03s
+[1580708343] wproc:   host=Dial4trade.in; service=(null);
+[1580708343] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580708343] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580708343] wproc: Core Worker 8827: job 5819 (pid=448): Dormant child reaped
+[1580708643] wproc: Core Worker 8830: job 5823 (pid=476) timed out. Killing it
+[1580708643] wproc: CHECK job 5823 from worker Core Worker 8830 timed out after 30.03s
+[1580708643] wproc:   host=Dial4trade.in; service=(null);
+[1580708643] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580708643] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580708643] wproc: Core Worker 8830: job 5823 (pid=476): Dormant child reaped
+[1580708672] Auto-save of retention data completed successfully.
+[1580708943] wproc: Core Worker 8830: job 5826 (pid=502) timed out. Killing it
+[1580708943] wproc: CHECK job 5826 from worker Core Worker 8830 timed out after 30.01s
+[1580708943] wproc:   host=Dial4trade.in; service=(null);
+[1580708943] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580708943] Warning: Check of host 'Dial4trade.in' timed out after 30.01 seconds
+[1580708944] wproc: Core Worker 8830: job 5826 (pid=502): Dormant child reaped
+[1580709243] wproc: Core Worker 8829: job 5829 (pid=531) timed out. Killing it
+[1580709243] wproc: CHECK job 5829 from worker Core Worker 8829 timed out after 30.03s
+[1580709243] wproc:   host=Dial4trade.in; service=(null);
+[1580709243] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580709243] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580709244] wproc: Core Worker 8829: job 5829 (pid=531): Dormant child reaped
+[1580709543] wproc: Core Worker 8829: job 5832 (pid=556) timed out. Killing it
+[1580709543] wproc: CHECK job 5832 from worker Core Worker 8829 timed out after 30.03s
+[1580709543] wproc:   host=Dial4trade.in; service=(null);
+[1580709543] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580709543] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580709544] wproc: Core Worker 8829: job 5832 (pid=556): Dormant child reaped
+[1580709630] HOST NOTIFICATION: nagiosadmin;Dial4trade.in;DOWN;notify-host-by-email;(Host check timed out after 30.03 seconds)
+[1580709630] wproc: NOTIFY job 5835 from worker Core Worker 8829 is a non-check helper but exited with return code 75
+[1580709630] wproc:   host=Dial4trade.in; service=(none); contact=nagiosadmin
+[1580709630] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580709630] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580709630] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580709630] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580709630] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580709843] wproc: Core Worker 8829: job 5836 (pid=623) timed out. Killing it
+[1580709843] wproc: CHECK job 5836 from worker Core Worker 8829 timed out after 30.01s
+[1580709843] wproc:   host=Dial4trade.in; service=(null);
+[1580709843] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580709843] Warning: Check of host 'Dial4trade.in' timed out after 30.01 seconds
+[1580709844] wproc: Core Worker 8829: job 5836 (pid=623): Dormant child reaped
+[1580710143] wproc: Core Worker 8829: job 5839 (pid=649) timed out. Killing it
+[1580710143] wproc: CHECK job 5839 from worker Core Worker 8829 timed out after 30.04s
+[1580710143] wproc:   host=Dial4trade.in; service=(null);
+[1580710143] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580710143] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580710144] wproc: Core Worker 8829: job 5839 (pid=649): Dormant child reaped
+[1580710443] wproc: Core Worker 8828: job 5843 (pid=678) timed out. Killing it
+[1580710443] wproc: CHECK job 5843 from worker Core Worker 8828 timed out after 30.03s
+[1580710443] wproc:   host=Dial4trade.in; service=(null);
+[1580710443] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580710443] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580710444] wproc: Core Worker 8828: job 5843 (pid=678): Dormant child reaped
+[1580710744] wproc: Core Worker 8828: job 5846 (pid=706) timed out. Killing it
+[1580710744] wproc: CHECK job 5846 from worker Core Worker 8828 timed out after 30.03s
+[1580710744] wproc:   host=Dial4trade.in; service=(null);
+[1580710744] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580710744] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580710744] wproc: Core Worker 8828: job 5846 (pid=706): Dormant child reaped
+[1580711043] wproc: Core Worker 8827: job 5850 (pid=758) timed out. Killing it
+[1580711043] wproc: CHECK job 5850 from worker Core Worker 8827 timed out after 30.01s
+[1580711043] wproc:   host=Dial4trade.in; service=(null);
+[1580711043] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580711043] Warning: Check of host 'Dial4trade.in' timed out after 30.01 seconds
+[1580711043] wproc: Core Worker 8827: job 5850 (pid=758): Dormant child reaped
+[1580711343] wproc: Core Worker 8827: job 5853 (pid=784) timed out. Killing it
+[1580711343] wproc: CHECK job 5853 from worker Core Worker 8827 timed out after 30.04s
+[1580711343] wproc:   host=Dial4trade.in; service=(null);
+[1580711343] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580711343] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580711343] wproc: Core Worker 8827: job 5853 (pid=784): Dormant child reaped
+[1580711430] HOST NOTIFICATION: nagiosadmin;Dial4trade.in;DOWN;notify-host-by-email;(Host check timed out after 30.04 seconds)
+[1580711430] wproc: NOTIFY job 5856 from worker Core Worker 8827 is a non-check helper but exited with return code 75
+[1580711430] wproc:   host=Dial4trade.in; service=(none); contact=nagiosadmin
+[1580711430] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580711430] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580711430] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580711430] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580711430] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580711643] wproc: Core Worker 8827: job 5857 (pid=815) timed out. Killing it
+[1580711643] wproc: CHECK job 5857 from worker Core Worker 8827 timed out after 30.04s
+[1580711643] wproc:   host=Dial4trade.in; service=(null);
+[1580711643] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580711643] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580711643] wproc: Core Worker 8827: job 5857 (pid=815): Dormant child reaped
+[1580711943] wproc: Core Worker 8827: job 5860 (pid=842) timed out. Killing it
+[1580711943] wproc: CHECK job 5860 from worker Core Worker 8827 timed out after 30.04s
+[1580711943] wproc:   host=Dial4trade.in; service=(null);
+[1580711943] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580711943] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580711943] wproc: Core Worker 8827: job 5860 (pid=842): Dormant child reaped
+[1580712243] wproc: Core Worker 8830: job 5864 (pid=871) timed out. Killing it
+[1580712243] wproc: CHECK job 5864 from worker Core Worker 8830 timed out after 30.03s
+[1580712243] wproc:   host=Dial4trade.in; service=(null);
+[1580712243] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580712243] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580712243] wproc: Core Worker 8830: job 5864 (pid=871): Dormant child reaped
+[1580712272] Auto-save of retention data completed successfully.
+[1580712543] wproc: Core Worker 8830: job 5867 (pid=918) timed out. Killing it
+[1580712543] wproc: CHECK job 5867 from worker Core Worker 8830 timed out after 30.04s
+[1580712543] wproc:   host=Dial4trade.in; service=(null);
+[1580712543] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580712543] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580712543] wproc: Core Worker 8830: job 5867 (pid=918): Dormant child reaped
+[1580712843] wproc: Core Worker 8829: job 5870 (pid=947) timed out. Killing it
+[1580712843] wproc: CHECK job 5870 from worker Core Worker 8829 timed out after 30.01s
+[1580712843] wproc:   host=Dial4trade.in; service=(null);
+[1580712843] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580712843] Warning: Check of host 'Dial4trade.in' timed out after 30.01 seconds
+[1580712843] wproc: Core Worker 8829: job 5870 (pid=947): Dormant child reaped
+[1580713143] wproc: Core Worker 8829: job 5873 (pid=973) timed out. Killing it
+[1580713143] wproc: CHECK job 5873 from worker Core Worker 8829 timed out after 30.02s
+[1580713143] wproc:   host=Dial4trade.in; service=(null);
+[1580713143] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580713143] Warning: Check of host 'Dial4trade.in' timed out after 30.02 seconds
+[1580713143] wproc: Core Worker 8829: job 5873 (pid=973): Dormant child reaped
+[1580713230] HOST NOTIFICATION: nagiosadmin;Dial4trade.in;DOWN;notify-host-by-email;(Host check timed out after 30.02 seconds)
+[1580713230] wproc: NOTIFY job 5876 from worker Core Worker 8829 is a non-check helper but exited with return code 75
+[1580713230] wproc:   host=Dial4trade.in; service=(none); contact=nagiosadmin
+[1580713230] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580713230] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580713230] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580713230] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580713230] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580713443] wproc: Core Worker 8829: job 5877 (pid=1018) timed out. Killing it
+[1580713443] wproc: CHECK job 5877 from worker Core Worker 8829 timed out after 30.03s
+[1580713443] wproc:   host=Dial4trade.in; service=(null);
+[1580713443] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580713443] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580713443] wproc: Core Worker 8829: job 5877 (pid=1018): Dormant child reaped
+[1580713743] wproc: Core Worker 8829: job 5880 (pid=1044) timed out. Killing it
+[1580713743] wproc: CHECK job 5880 from worker Core Worker 8829 timed out after 30.04s
+[1580713743] wproc:   host=Dial4trade.in; service=(null);
+[1580713743] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580713743] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580713743] wproc: Core Worker 8829: job 5880 (pid=1044): Dormant child reaped
+[1580714043] wproc: Core Worker 8828: job 5884 (pid=1095) timed out. Killing it
+[1580714043] wproc: CHECK job 5884 from worker Core Worker 8828 timed out after 30.04s
+[1580714043] wproc:   host=Dial4trade.in; service=(null);
+[1580714043] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580714043] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580714043] wproc: Core Worker 8828: job 5884 (pid=1095): Dormant child reaped
+[1580714343] wproc: Core Worker 8828: job 5887 (pid=1120) timed out. Killing it
+[1580714343] wproc: CHECK job 5887 from worker Core Worker 8828 timed out after 30.03s
+[1580714343] wproc:   host=Dial4trade.in; service=(null);
+[1580714343] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580714343] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580714343] wproc: Core Worker 8828: job 5887 (pid=1120): Dormant child reaped
+[1580714643] wproc: Core Worker 8827: job 5891 (pid=1149) timed out. Killing it
+[1580714643] wproc: CHECK job 5891 from worker Core Worker 8827 timed out after 30.04s
+[1580714643] wproc:   host=Dial4trade.in; service=(null);
+[1580714643] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580714643] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580714643] wproc: Core Worker 8827: job 5891 (pid=1149): Dormant child reaped
+[1580714943] wproc: Core Worker 8827: job 5894 (pid=1175) timed out. Killing it
+[1580714943] wproc: CHECK job 5894 from worker Core Worker 8827 timed out after 30.01s
+[1580714943] wproc:   host=Dial4trade.in; service=(null);
+[1580714943] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580714943] Warning: Check of host 'Dial4trade.in' timed out after 30.01 seconds
+[1580714943] wproc: Core Worker 8827: job 5894 (pid=1175): Dormant child reaped
+[1580715030] HOST NOTIFICATION: nagiosadmin;Dial4trade.in;DOWN;notify-host-by-email;(Host check timed out after 30.01 seconds)
+[1580715030] wproc: NOTIFY job 5897 from worker Core Worker 8827 is a non-check helper but exited with return code 75
+[1580715030] wproc:   host=Dial4trade.in; service=(none); contact=nagiosadmin
+[1580715030] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580715030] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580715030] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580715030] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580715030] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580715243] wproc: Core Worker 8827: job 5898 (pid=1206) timed out. Killing it
+[1580715243] wproc: CHECK job 5898 from worker Core Worker 8827 timed out after 30.04s
+[1580715243] wproc:   host=Dial4trade.in; service=(null);
+[1580715243] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580715243] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580715243] wproc: Core Worker 8827: job 5898 (pid=1206): Dormant child reaped
+[1580715543] wproc: Core Worker 8827: job 5901 (pid=1232) timed out. Killing it
+[1580715543] wproc: CHECK job 5901 from worker Core Worker 8827 timed out after 30.04s
+[1580715543] wproc:   host=Dial4trade.in; service=(null);
+[1580715543] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580715543] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580715543] wproc: Core Worker 8827: job 5901 (pid=1232): Dormant child reaped
+[1580715843] wproc: Core Worker 8830: job 5905 (pid=1282) timed out. Killing it
+[1580715843] wproc: CHECK job 5905 from worker Core Worker 8830 timed out after 30.04s
+[1580715843] wproc:   host=Dial4trade.in; service=(null);
+[1580715843] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580715843] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580715843] wproc: Core Worker 8830: job 5905 (pid=1282): Dormant child reaped
+[1580715872] Auto-save of retention data completed successfully.
+[1580716143] wproc: Core Worker 8830: job 5908 (pid=1308) timed out. Killing it
+[1580716143] wproc: CHECK job 5908 from worker Core Worker 8830 timed out after 30.01s
+[1580716143] wproc:   host=Dial4trade.in; service=(null);
+[1580716143] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580716143] Warning: Check of host 'Dial4trade.in' timed out after 30.01 seconds
+[1580716143] wproc: Core Worker 8830: job 5908 (pid=1308): Dormant child reaped
+[1580716443] wproc: Core Worker 8829: job 5911 (pid=1336) timed out. Killing it
+[1580716443] wproc: CHECK job 5911 from worker Core Worker 8829 timed out after 30.03s
+[1580716443] wproc:   host=Dial4trade.in; service=(null);
+[1580716443] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580716443] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580716444] wproc: Core Worker 8829: job 5911 (pid=1336): Dormant child reaped
+[1580716743] wproc: Core Worker 8829: job 5914 (pid=1362) timed out. Killing it
+[1580716743] wproc: CHECK job 5914 from worker Core Worker 8829 timed out after 30.02s
+[1580716743] wproc:   host=Dial4trade.in; service=(null);
+[1580716743] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580716743] Warning: Check of host 'Dial4trade.in' timed out after 30.02 seconds
+[1580716744] wproc: Core Worker 8829: job 5914 (pid=1362): Dormant child reaped
+[1580716830] HOST NOTIFICATION: nagiosadmin;Dial4trade.in;DOWN;notify-host-by-email;(Host check timed out after 30.02 seconds)
+[1580716830] wproc: NOTIFY job 5917 from worker Core Worker 8829 is a non-check helper but exited with return code 75
+[1580716830] wproc:   host=Dial4trade.in; service=(none); contact=nagiosadmin
+[1580716830] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580716830] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580716830] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580716830] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580716830] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580717043] wproc: Core Worker 8829: job 5918 (pid=1408) timed out. Killing it
+[1580717043] wproc: CHECK job 5918 from worker Core Worker 8829 timed out after 30.02s
+[1580717043] wproc:   host=Dial4trade.in; service=(null);
+[1580717043] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580717043] Warning: Check of host 'Dial4trade.in' timed out after 30.02 seconds
+[1580717044] wproc: Core Worker 8829: job 5918 (pid=1408): Dormant child reaped
+[1580717343] wproc: Core Worker 8829: job 5921 (pid=1433) timed out. Killing it
+[1580717343] wproc: CHECK job 5921 from worker Core Worker 8829 timed out after 30.04s
+[1580717343] wproc:   host=Dial4trade.in; service=(null);
+[1580717343] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580717343] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580717344] wproc: Core Worker 8829: job 5921 (pid=1433): Dormant child reaped
+[1580717643] wproc: Core Worker 8828: job 5925 (pid=1484) timed out. Killing it
+[1580717643] wproc: CHECK job 5925 from worker Core Worker 8828 timed out after 30.04s
+[1580717643] wproc:   host=Dial4trade.in; service=(null);
+[1580717643] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580717643] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580717644] wproc: Core Worker 8828: job 5925 (pid=1484): Dormant child reaped
+[1580717943] wproc: Core Worker 8828: job 5928 (pid=1511) timed out. Killing it
+[1580717943] wproc: CHECK job 5928 from worker Core Worker 8828 timed out after 30.03s
+[1580717943] wproc:   host=Dial4trade.in; service=(null);
+[1580717943] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580717943] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580717944] wproc: Core Worker 8828: job 5928 (pid=1511): Dormant child reaped
+[1580718244] wproc: Core Worker 8827: job 5932 (pid=1539) timed out. Killing it
+[1580718244] wproc: CHECK job 5932 from worker Core Worker 8827 timed out after 30.04s
+[1580718244] wproc:   host=Dial4trade.in; service=(null);
+[1580718244] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580718244] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580718244] wproc: Core Worker 8827: job 5932 (pid=1539): Dormant child reaped
+[1580718543] wproc: Core Worker 8827: job 5935 (pid=1565) timed out. Killing it
+[1580718543] wproc: CHECK job 5935 from worker Core Worker 8827 timed out after 30.04s
+[1580718543] wproc:   host=Dial4trade.in; service=(null);
+[1580718543] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580718543] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580718543] wproc: Core Worker 8827: job 5935 (pid=1565): Dormant child reaped
+[1580718630] HOST NOTIFICATION: nagiosadmin;Dial4trade.in;DOWN;notify-host-by-email;(Host check timed out after 30.04 seconds)
+[1580718630] wproc: NOTIFY job 5938 from worker Core Worker 8827 is a non-check helper but exited with return code 75
+[1580718630] wproc:   host=Dial4trade.in; service=(none); contact=nagiosadmin
+[1580718630] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580718630] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580718630] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580718630] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580718630] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580718843] wproc: Core Worker 8827: job 5939 (pid=1597) timed out. Killing it
+[1580718843] wproc: CHECK job 5939 from worker Core Worker 8827 timed out after 30.01s
+[1580718843] wproc:   host=Dial4trade.in; service=(null);
+[1580718843] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580718843] Warning: Check of host 'Dial4trade.in' timed out after 30.01 seconds
+[1580718843] wproc: Core Worker 8827: job 5939 (pid=1597): Dormant child reaped
+[1580719143] wproc: Core Worker 8827: job 5942 (pid=1644) timed out. Killing it
+[1580719143] wproc: CHECK job 5942 from worker Core Worker 8827 timed out after 30.03s
+[1580719143] wproc:   host=Dial4trade.in; service=(null);
+[1580719143] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580719143] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580719143] wproc: Core Worker 8827: job 5942 (pid=1644): Dormant child reaped
+[1580719443] wproc: Core Worker 8830: job 5946 (pid=1676) timed out. Killing it
+[1580719443] wproc: CHECK job 5946 from worker Core Worker 8830 timed out after 30.04s
+[1580719443] wproc:   host=Dial4trade.in; service=(null);
+[1580719443] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580719443] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580719443] wproc: Core Worker 8830: job 5946 (pid=1676): Dormant child reaped
+[1580719472] Auto-save of retention data completed successfully.
+[1580719743] wproc: Core Worker 8830: job 5949 (pid=1711) timed out. Killing it
+[1580719743] wproc: CHECK job 5949 from worker Core Worker 8830 timed out after 30.04s
+[1580719743] wproc:   host=Dial4trade.in; service=(null);
+[1580719743] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580719743] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580719743] wproc: Core Worker 8830: job 5949 (pid=1711): Dormant child reaped
+[1580720043] wproc: Core Worker 8829: job 5952 (pid=1739) timed out. Killing it
+[1580720043] wproc: CHECK job 5952 from worker Core Worker 8829 timed out after 30.04s
+[1580720043] wproc:   host=Dial4trade.in; service=(null);
+[1580720043] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580720043] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580720043] wproc: Core Worker 8829: job 5952 (pid=1739): Dormant child reaped
+[1580720343] wproc: Core Worker 8829: job 5955 (pid=1765) timed out. Killing it
+[1580720343] wproc: CHECK job 5955 from worker Core Worker 8829 timed out after 30.04s
+[1580720343] wproc:   host=Dial4trade.in; service=(null);
+[1580720343] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580720343] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580720343] wproc: Core Worker 8829: job 5955 (pid=1765): Dormant child reaped
+[1580720430] HOST NOTIFICATION: nagiosadmin;Dial4trade.in;DOWN;notify-host-by-email;(Host check timed out after 30.04 seconds)
+[1580720430] wproc: NOTIFY job 5958 from worker Core Worker 8829 is a non-check helper but exited with return code 75
+[1580720430] wproc:   host=Dial4trade.in; service=(none); contact=nagiosadmin
+[1580720430] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580720430] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580720430] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580720430] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580720430] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580720643] wproc: Core Worker 8829: job 5959 (pid=1812) timed out. Killing it
+[1580720643] wproc: CHECK job 5959 from worker Core Worker 8829 timed out after 30.02s
+[1580720643] wproc:   host=Dial4trade.in; service=(null);
+[1580720643] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580720643] Warning: Check of host 'Dial4trade.in' timed out after 30.02 seconds
+[1580720643] wproc: Core Worker 8829: job 5959 (pid=1812): Dormant child reaped
+[1580720943] wproc: Core Worker 8829: job 5962 (pid=1860) timed out. Killing it
+[1580720943] wproc: CHECK job 5962 from worker Core Worker 8829 timed out after 30.02s
+[1580720943] wproc:   host=Dial4trade.in; service=(null);
+[1580720943] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580720943] Warning: Check of host 'Dial4trade.in' timed out after 30.02 seconds
+[1580720943] wproc: Core Worker 8829: job 5962 (pid=1860): Dormant child reaped
+[1580721243] wproc: Core Worker 8828: job 5966 (pid=1888) timed out. Killing it
+[1580721243] wproc: CHECK job 5966 from worker Core Worker 8828 timed out after 30.03s
+[1580721243] wproc:   host=Dial4trade.in; service=(null);
+[1580721243] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580721243] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580721243] wproc: Core Worker 8828: job 5966 (pid=1888): Dormant child reaped
+[1580721543] wproc: Core Worker 8828: job 5969 (pid=1914) timed out. Killing it
+[1580721543] wproc: CHECK job 5969 from worker Core Worker 8828 timed out after 30.03s
+[1580721543] wproc:   host=Dial4trade.in; service=(null);
+[1580721543] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580721543] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580721543] wproc: Core Worker 8828: job 5969 (pid=1914): Dormant child reaped
+[1580721843] wproc: Core Worker 8827: job 5973 (pid=1943) timed out. Killing it
+[1580721843] wproc: CHECK job 5973 from worker Core Worker 8827 timed out after 30.02s
+[1580721843] wproc:   host=Dial4trade.in; service=(null);
+[1580721843] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580721843] Warning: Check of host 'Dial4trade.in' timed out after 30.02 seconds
+[1580721843] wproc: Core Worker 8827: job 5973 (pid=1943): Dormant child reaped
+[1580722143] wproc: Core Worker 8827: job 5976 (pid=1968) timed out. Killing it
+[1580722143] wproc: CHECK job 5976 from worker Core Worker 8827 timed out after 30.02s
+[1580722143] wproc:   host=Dial4trade.in; service=(null);
+[1580722143] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580722143] Warning: Check of host 'Dial4trade.in' timed out after 30.02 seconds
+[1580722143] wproc: Core Worker 8827: job 5976 (pid=1968): Dormant child reaped
+[1580722230] HOST NOTIFICATION: nagiosadmin;Dial4trade.in;DOWN;notify-host-by-email;(Host check timed out after 30.02 seconds)
+[1580722230] wproc: NOTIFY job 5979 from worker Core Worker 8827 is a non-check helper but exited with return code 75
+[1580722230] wproc:   host=Dial4trade.in; service=(none); contact=nagiosadmin
+[1580722230] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580722230] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580722230] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580722230] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580722230] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580722443] wproc: Core Worker 8827: job 5980 (pid=2022) timed out. Killing it
+[1580722443] wproc: CHECK job 5980 from worker Core Worker 8827 timed out after 30.04s
+[1580722443] wproc:   host=Dial4trade.in; service=(null);
+[1580722443] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580722443] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580722443] wproc: Core Worker 8827: job 5980 (pid=2022): Dormant child reaped
+[1580722743] wproc: Core Worker 8827: job 5983 (pid=2048) timed out. Killing it
+[1580722743] wproc: CHECK job 5983 from worker Core Worker 8827 timed out after 30.03s
+[1580722743] wproc:   host=Dial4trade.in; service=(null);
+[1580722743] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580722743] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580722743] wproc: Core Worker 8827: job 5983 (pid=2048): Dormant child reaped
+[1580723043] wproc: Core Worker 8830: job 5987 (pid=2076) timed out. Killing it
+[1580723043] wproc: CHECK job 5987 from worker Core Worker 8830 timed out after 30.01s
+[1580723043] wproc:   host=Dial4trade.in; service=(null);
+[1580723043] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580723043] Warning: Check of host 'Dial4trade.in' timed out after 30.01 seconds
+[1580723043] wproc: Core Worker 8830: job 5987 (pid=2076): Dormant child reaped
+[1580723072] Auto-save of retention data completed successfully.
+[1580723343] wproc: Core Worker 8830: job 5990 (pid=2102) timed out. Killing it
+[1580723343] wproc: CHECK job 5990 from worker Core Worker 8830 timed out after 30.04s
+[1580723343] wproc:   host=Dial4trade.in; service=(null);
+[1580723343] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580723343] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580723343] wproc: Core Worker 8830: job 5990 (pid=2102): Dormant child reaped
+[1580723643] wproc: Core Worker 8829: job 5993 (pid=2131) timed out. Killing it
+[1580723643] wproc: CHECK job 5993 from worker Core Worker 8829 timed out after 30.04s
+[1580723643] wproc:   host=Dial4trade.in; service=(null);
+[1580723643] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580723643] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580723643] wproc: Core Worker 8829: job 5993 (pid=2131): Dormant child reaped
+[1580723943] wproc: Core Worker 8829: job 5996 (pid=2181) timed out. Killing it
+[1580723943] wproc: CHECK job 5996 from worker Core Worker 8829 timed out after 30.01s
+[1580723943] wproc:   host=Dial4trade.in; service=(null);
+[1580723943] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580723943] Warning: Check of host 'Dial4trade.in' timed out after 30.01 seconds
+[1580723944] wproc: Core Worker 8829: job 5996 (pid=2181): Dormant child reaped
+[1580724030] HOST NOTIFICATION: nagiosadmin;Dial4trade.in;DOWN;notify-host-by-email;(Host check timed out after 30.01 seconds)
+[1580724030] wproc: NOTIFY job 5999 from worker Core Worker 8829 is a non-check helper but exited with return code 75
+[1580724030] wproc:   host=Dial4trade.in; service=(none); contact=nagiosadmin
+[1580724030] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580724030] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580724030] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580724030] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580724243] wproc: Core Worker 8829: job 6000 (pid=2227) timed out. Killing it
+[1580724243] wproc: CHECK job 6000 from worker Core Worker 8829 timed out after 30.02s
+[1580724243] wproc:   host=Dial4trade.in; service=(null);
+[1580724243] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580724243] Warning: Check of host 'Dial4trade.in' timed out after 30.02 seconds
+[1580724244] wproc: Core Worker 8829: job 6000 (pid=2227): Dormant child reaped
+[1580724543] wproc: Core Worker 8829: job 6003 (pid=2253) timed out. Killing it
+[1580724543] wproc: CHECK job 6003 from worker Core Worker 8829 timed out after 30.01s
+[1580724543] wproc:   host=Dial4trade.in; service=(null);
+[1580724543] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580724543] Warning: Check of host 'Dial4trade.in' timed out after 30.01 seconds
+[1580724544] wproc: Core Worker 8829: job 6003 (pid=2253): Dormant child reaped
+[1580724843] wproc: Core Worker 8828: job 6007 (pid=2281) timed out. Killing it
+[1580724843] wproc: CHECK job 6007 from worker Core Worker 8828 timed out after 30.02s
+[1580724843] wproc:   host=Dial4trade.in; service=(null);
+[1580724843] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580724843] Warning: Check of host 'Dial4trade.in' timed out after 30.02 seconds
+[1580724844] wproc: Core Worker 8828: job 6007 (pid=2281): Dormant child reaped
+[1580725143] wproc: Core Worker 8828: job 6010 (pid=2306) timed out. Killing it
+[1580725143] wproc: CHECK job 6010 from worker Core Worker 8828 timed out after 30.01s
+[1580725143] wproc:   host=Dial4trade.in; service=(null);
+[1580725143] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580725143] Warning: Check of host 'Dial4trade.in' timed out after 30.01 seconds
+[1580725144] wproc: Core Worker 8828: job 6010 (pid=2306): Dormant child reaped
+[1580725443] wproc: Core Worker 8827: job 6014 (pid=2357) timed out. Killing it
+[1580725443] wproc: CHECK job 6014 from worker Core Worker 8827 timed out after 30.02s
+[1580725443] wproc:   host=Dial4trade.in; service=(null);
+[1580725443] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580725443] Warning: Check of host 'Dial4trade.in' timed out after 30.02 seconds
+[1580725444] wproc: Core Worker 8827: job 6014 (pid=2357): Dormant child reaped
+[1580725743] wproc: Core Worker 8827: job 6017 (pid=2383) timed out. Killing it
+[1580725743] wproc: CHECK job 6017 from worker Core Worker 8827 timed out after 30.04s
+[1580725743] wproc:   host=Dial4trade.in; service=(null);
+[1580725743] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580725743] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580725744] wproc: Core Worker 8827: job 6017 (pid=2383): Dormant child reaped
+[1580725830] HOST NOTIFICATION: nagiosadmin;Dial4trade.in;DOWN;notify-host-by-email;(Host check timed out after 30.04 seconds)
+[1580725830] wproc: NOTIFY job 6020 from worker Core Worker 8827 is a non-check helper but exited with return code 75
+[1580725830] wproc:   host=Dial4trade.in; service=(none); contact=nagiosadmin
+[1580725830] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580725830] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580725830] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580725830] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580725830] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580726043] wproc: Core Worker 8827: job 6021 (pid=2414) timed out. Killing it
+[1580726043] wproc: CHECK job 6021 from worker Core Worker 8827 timed out after 30.04s
+[1580726043] wproc:   host=Dial4trade.in; service=(null);
+[1580726043] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580726043] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580726044] wproc: Core Worker 8827: job 6021 (pid=2414): Dormant child reaped
+[1580726344] wproc: Core Worker 8827: job 6024 (pid=2440) timed out. Killing it
+[1580726344] wproc: CHECK job 6024 from worker Core Worker 8827 timed out after 30.03s
+[1580726344] wproc:   host=Dial4trade.in; service=(null);
+[1580726344] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580726344] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580726344] wproc: Core Worker 8827: job 6024 (pid=2440): Dormant child reaped
+[1580726643] wproc: Core Worker 8830: job 6028 (pid=2469) timed out. Killing it
+[1580726643] wproc: CHECK job 6028 from worker Core Worker 8830 timed out after 30.03s
+[1580726643] wproc:   host=Dial4trade.in; service=(null);
+[1580726643] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580726643] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580726643] wproc: Core Worker 8830: job 6028 (pid=2469): Dormant child reaped
+[1580726672] Auto-save of retention data completed successfully.
+[1580726943] wproc: Core Worker 8830: job 6031 (pid=2516) timed out. Killing it
+[1580726943] wproc: CHECK job 6031 from worker Core Worker 8830 timed out after 30.04s
+[1580726943] wproc:   host=Dial4trade.in; service=(null);
+[1580726943] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580726943] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580726943] wproc: Core Worker 8830: job 6031 (pid=2516): Dormant child reaped
+[1580727243] wproc: Core Worker 8829: job 6034 (pid=2546) timed out. Killing it
+[1580727243] wproc: CHECK job 6034 from worker Core Worker 8829 timed out after 30.01s
+[1580727243] wproc:   host=Dial4trade.in; service=(null);
+[1580727243] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580727243] Warning: Check of host 'Dial4trade.in' timed out after 30.01 seconds
+[1580727243] wproc: Core Worker 8829: job 6034 (pid=2546): Dormant child reaped
+[1580727543] wproc: Core Worker 8829: job 6037 (pid=2572) timed out. Killing it
+[1580727543] wproc: CHECK job 6037 from worker Core Worker 8829 timed out after 30.01s
+[1580727543] wproc:   host=Dial4trade.in; service=(null);
+[1580727543] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580727543] Warning: Check of host 'Dial4trade.in' timed out after 30.01 seconds
+[1580727543] wproc: Core Worker 8829: job 6037 (pid=2572): Dormant child reaped
+[1580727630] HOST NOTIFICATION: nagiosadmin;Dial4trade.in;DOWN;notify-host-by-email;(Host check timed out after 30.01 seconds)
+[1580727630] wproc: NOTIFY job 6040 from worker Core Worker 8829 is a non-check helper but exited with return code 75
+[1580727630] wproc:   host=Dial4trade.in; service=(none); contact=nagiosadmin
+[1580727630] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580727630] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580727630] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580727630] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580727630] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580727843] wproc: Core Worker 8829: job 6041 (pid=2618) timed out. Killing it
+[1580727843] wproc: CHECK job 6041 from worker Core Worker 8829 timed out after 30.04s
+[1580727843] wproc:   host=Dial4trade.in; service=(null);
+[1580727843] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580727843] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580727843] wproc: Core Worker 8829: job 6041 (pid=2618): Dormant child reaped
+[1580728143] wproc: Core Worker 8829: job 6044 (pid=2645) timed out. Killing it
+[1580728143] wproc: CHECK job 6044 from worker Core Worker 8829 timed out after 30.04s
+[1580728143] wproc:   host=Dial4trade.in; service=(null);
+[1580728143] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580728143] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580728143] wproc: Core Worker 8829: job 6044 (pid=2645): Dormant child reaped
+[1580728443] wproc: Core Worker 8828: job 6048 (pid=2674) timed out. Killing it
+[1580728443] wproc: CHECK job 6048 from worker Core Worker 8828 timed out after 30.04s
+[1580728443] wproc:   host=Dial4trade.in; service=(null);
+[1580728443] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580728443] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580728443] wproc: Core Worker 8828: job 6048 (pid=2674): Dormant child reaped
+[1580728743] wproc: Core Worker 8828: job 6051 (pid=2721) timed out. Killing it
+[1580728743] wproc: CHECK job 6051 from worker Core Worker 8828 timed out after 30.03s
+[1580728743] wproc:   host=Dial4trade.in; service=(null);
+[1580728743] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580728743] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580728743] wproc: Core Worker 8828: job 6051 (pid=2721): Dormant child reaped
+[1580729043] wproc: Core Worker 8827: job 6055 (pid=2750) timed out. Killing it
+[1580729043] wproc: CHECK job 6055 from worker Core Worker 8827 timed out after 30.03s
+[1580729043] wproc:   host=Dial4trade.in; service=(null);
+[1580729043] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580729043] Warning: Check of host 'Dial4trade.in' timed out after 30.03 seconds
+[1580729043] wproc: Core Worker 8827: job 6055 (pid=2750): Dormant child reaped
+[1580729343] wproc: Core Worker 8827: job 6058 (pid=2775) timed out. Killing it
+[1580729343] wproc: CHECK job 6058 from worker Core Worker 8827 timed out after 30.04s
+[1580729343] wproc:   host=Dial4trade.in; service=(null);
+[1580729343] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580729343] Warning: Check of host 'Dial4trade.in' timed out after 30.04 seconds
+[1580729343] wproc: Core Worker 8827: job 6058 (pid=2775): Dormant child reaped
+[1580729430] HOST NOTIFICATION: nagiosadmin;Dial4trade.in;DOWN;notify-host-by-email;(Host check timed out after 30.04 seconds)
+[1580729430] wproc: NOTIFY job 6061 from worker Core Worker 8827 is a non-check helper but exited with return code 75
+[1580729430] wproc:   host=Dial4trade.in; service=(none); contact=nagiosadmin
+[1580729430] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580729430] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580729430] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580729430] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580729430] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580729643] wproc: Core Worker 8827: job 6062 (pid=2807) timed out. Killing it
+[1580729643] wproc: CHECK job 6062 from worker Core Worker 8827 timed out after 30.01s
+[1580729643] wproc:   host=Dial4trade.in; service=(null);
+[1580729643] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1580729643] Warning: Check of host 'Dial4trade.in' timed out after 30.01 seconds
+[1580729643] wproc: Core Worker 8827: job 6062 (pid=2807): Dormant child reaped
+[1580729805] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;CPU Load;1580729803
+[1580729805] SERVICE ALERT: Dial4trade.in;CPU Load;OK;HARD;3;OK - load average: 0.00, 0.01, 0.05
+[1580729809] HOST NOTIFICATION: nagiosadmin;Dial4trade.in;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.74 ms
+[1580729809] HOST ALERT: Dial4trade.in;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.74 ms
+[1580729809] wproc: NOTIFY job 6065 from worker Core Worker 8827 is a non-check helper but exited with return code 75
+[1580729809] wproc:   host=Dial4trade.in; service=(none); contact=nagiosadmin
+[1580729809] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580729809] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580729809] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580729809] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580729809] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580729824] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;Current Users;1580729821
+[1580729824] SERVICE ALERT: Dial4trade.in;Current Users;OK;SOFT;1;USERS OK - 0 users currently logged in
+[1580729833] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;Current Users;1580729831
+[1580729841] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;FTP Monitoring;1580729839
+[1580729841] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;FTP Monitoring;UNKNOWN;notify-service-by-email;NRPE: Command 'check_ftp' not defined
+[1580729841] SERVICE ALERT: Dial4trade.in;FTP Monitoring;UNKNOWN;HARD;3;NRPE: Command 'check_ftp' not defined
+[1580729841] wproc: NOTIFY job 6066 from worker Core Worker 8828 is a non-check helper but exited with return code 75
+[1580729841] wproc:   host=Dial4trade.in; service=FTP Monitoring; contact=nagiosadmin
+[1580729841] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580729841] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580729841] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580729841] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580729849] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;SSH Monitoring;1580729848
+[1580729849] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;UNKNOWN;notify-service-by-email;NRPE: Command 'check_ssh' not defined
+[1580729849] SERVICE ALERT: Dial4trade.in;SSH Monitoring;UNKNOWN;HARD;3;NRPE: Command 'check_ssh' not defined
+[1580729849] wproc: NOTIFY job 6067 from worker Core Worker 8827 is a non-check helper but exited with return code 75
+[1580729849] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1580729849] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580729849] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580729849] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580729849] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580729849] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580729855] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;SSH Monitoring;1580729854
+[1580729864] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;Total Processes;1580729863
+[1580729864] SERVICE ALERT: Dial4trade.in;Total Processes;OK;SOFT;1;PROCS OK: 109 processes
+[1580729869] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;Total Processes;1580729868
+[1580730033] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;localhost;Current Users;1580730031
+[1580730272] Auto-save of retention data completed successfully.
+[1580731048] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;SSH Monitoring;1580731047
+[1580731484] Caught SIGTERM, shutting down...
+[1580731484] Caught SIGTERM, shutting down...
+[1580731484] Successfully shutdown... (PID=8825)
+[1580731485] Nagios 4.4.5 starting... (PID=3192)
+[1580731485] Local time is Mon Feb 03 12:04:45 UTC 2020
+[1580731485] LOG VERSION: 2.0
+[1580731485] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1580731485] qh: core query handler registered
+[1580731485] qh: echo service query handler registered
+[1580731485] qh: help for the query handler registered
+[1580731485] wproc: Successfully registered manager as @wproc with query handler
+[1580731485] wproc: Registry request: name=Core Worker 3197;pid=3197
+[1580731485] wproc: Registry request: name=Core Worker 3194;pid=3194
+[1580731485] wproc: Registry request: name=Core Worker 3195;pid=3195
+[1580731485] wproc: Registry request: name=Core Worker 3196;pid=3196
+[1580731485] Successfully launched command file worker with pid 3198
+[1580731535] SERVICE ALERT: Dial4trade.in;Apache Monitoring;UNKNOWN;SOFT;1;NRPE: Unable to read output
+[1580731585] SERVICE ALERT: Dial4trade.in;Memory monitoring;UNKNOWN;SOFT;1;NRPE: Unable to read output
+[1580731628] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;Apache Monitoring;1580731627
+[1580731628] SERVICE ALERT: Dial4trade.in;Apache Monitoring;UNKNOWN;SOFT;2;NRPE: Unable to read output
+[1580731633] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;Apache Monitoring;1580731631
+[1580731633] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;Apache Monitoring;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1580731633] SERVICE ALERT: Dial4trade.in;Apache Monitoring;UNKNOWN;HARD;3;NRPE: Unable to read output
+[1580731633] wproc: NOTIFY job 3 from worker Core Worker 3194 is a non-check helper but exited with return code 75
+[1580731633] wproc:   host=Dial4trade.in; service=Apache Monitoring; contact=nagiosadmin
+[1580731633] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580731633] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580731633] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580731633] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580731633] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580731635] SERVICE ALERT: Dial4trade.in;PHP-FPM;UNKNOWN;SOFT;1;NRPE: Unable to read output
+[1580731637] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;Apache Monitoring;1580731635
+[1580731658] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1580731658] SERVICE ALERT: Dial4trade.in;SSH Monitoring;CRITICAL;HARD;3;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1580731658] wproc: NOTIFY job 4 from worker Core Worker 3196 is a non-check helper but exited with return code 75
+[1580731658] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1580731658] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580731658] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580731658] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580731658] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580731685] SERVICE ALERT: Dial4trade.in;ROOT monitoring;UNKNOWN;SOFT;1;NRPE: Unable to read output
+[1580731705] SERVICE ALERT: Dial4trade.in;Memory monitoring;UNKNOWN;SOFT;2;NRPE: Unable to read output
+[1580731755] SERVICE ALERT: Dial4trade.in;PHP-FPM;UNKNOWN;SOFT;2;NRPE: Unable to read output
+[1580731762] Caught SIGTERM, shutting down...
+[1580731762] Caught SIGTERM, shutting down...
+[1580731762] Caught SIGTERM, shutting down...
+[1580731762] Successfully shutdown... (PID=3192)
+[1580731762] Nagios 4.4.5 starting... (PID=3317)
+[1580731762] Local time is Mon Feb 03 12:09:22 UTC 2020
+[1580731762] LOG VERSION: 2.0
+[1580731762] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1580731762] qh: core query handler registered
+[1580731762] qh: echo service query handler registered
+[1580731762] qh: help for the query handler registered
+[1580731762] wproc: Successfully registered manager as @wproc with query handler
+[1580731762] wproc: Registry request: name=Core Worker 3318;pid=3318
+[1580731762] wproc: Registry request: name=Core Worker 3319;pid=3319
+[1580731762] wproc: Registry request: name=Core Worker 3320;pid=3320
+[1580731762] wproc: Registry request: name=Core Worker 3321;pid=3321
+[1580731762] Successfully launched command file worker with pid 3322
+[1580731771] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;Apache Monitoring;1580731770
+[1580731775] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;Apache Monitoring;1580731774
+[1580731779] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;Apache Monitoring;1580731778
+[1580731805] SERVICE ALERT: Dial4trade.in;ROOT monitoring;UNKNOWN;SOFT;2;NRPE: Unable to read output
+[1580731825] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;Memory monitoring;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1580731825] SERVICE ALERT: Dial4trade.in;Memory monitoring;UNKNOWN;HARD;3;NRPE: Unable to read output
+[1580731825] wproc: NOTIFY job 2 from worker Core Worker 3319 is a non-check helper but exited with return code 75
+[1580731825] wproc:   host=Dial4trade.in; service=Memory monitoring; contact=nagiosadmin
+[1580731825] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580731825] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580731825] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580731825] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580731825] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580731832] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;Apache Monitoring;1580731831
+[1580731836] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;Apache Monitoring;1580731835
+[1580731875] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;PHP-FPM;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1580731875] SERVICE ALERT: Dial4trade.in;PHP-FPM;UNKNOWN;HARD;3;NRPE: Unable to read output
+[1580731875] wproc: NOTIFY job 3 from worker Core Worker 3321 is a non-check helper but exited with return code 75
+[1580731875] wproc:   host=Dial4trade.in; service=PHP-FPM; contact=nagiosadmin
+[1580731875] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580731875] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580731875] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580731875] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580731875] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580731925] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;ROOT monitoring;UNKNOWN;notify-service-by-email;NRPE: Unable to read output
+[1580731925] SERVICE ALERT: Dial4trade.in;ROOT monitoring;UNKNOWN;HARD;3;NRPE: Unable to read output
+[1580731925] wproc: NOTIFY job 4 from worker Core Worker 3319 is a non-check helper but exited with return code 75
+[1580731925] wproc:   host=Dial4trade.in; service=ROOT monitoring; contact=nagiosadmin
+[1580731925] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580731925] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580731925] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580731925] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580731925] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580732436] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;Apache Monitoring;OK;notify-service-by-email;httpd is runing ! ! !
+[1580732436] SERVICE ALERT: Dial4trade.in;Apache Monitoring;OK;HARD;3;httpd is runing ! ! !
+[1580732436] wproc: NOTIFY job 11 from worker Core Worker 3320 is a non-check helper but exited with return code 75
+[1580732436] wproc:   host=Dial4trade.in; service=Apache Monitoring; contact=nagiosadmin
+[1580732436] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580732436] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580732436] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580732436] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580732436] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580732464] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;Apache Monitoring;1580732463
+[1580732532] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;SSH Monitoring;1580732531
+[1580732723] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;Memory monitoring;1580732722
+[1580732723] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;Memory monitoring;OK;notify-service-by-email;38.08%
+[1580732723] SERVICE ALERT: Dial4trade.in;Memory monitoring;OK;HARD;3;38.08%
+[1580732723] wproc: NOTIFY job 15 from worker Core Worker 3320 is a non-check helper but exited with return code 75
+[1580732723] wproc:   host=Dial4trade.in; service=Memory monitoring; contact=nagiosadmin
+[1580732723] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580732723] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580732723] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580732723] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580732723] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580732727] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;Memory monitoring;1580732726
+[1580732880] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;ROOT monitoring;1580732879
+[1580732880] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;ROOT monitoring;OK;notify-service-by-email;OK - 35% of disk space used.
+[1580732880] SERVICE ALERT: Dial4trade.in;ROOT monitoring;OK;HARD;3;OK - 35% of disk space used.
+[1580732880] wproc: NOTIFY job 18 from worker Core Worker 3318 is a non-check helper but exited with return code 75
+[1580732880] wproc:   host=Dial4trade.in; service=ROOT monitoring; contact=nagiosadmin
+[1580732880] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580732880] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580732880] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580732880] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580732880] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580732884] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;ROOT monitoring;1580732883
+[1580733065] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;PHP-FPM;1580733064
+[1580733070] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;PHP-FPM;1580733068
+[1580733078] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;PHP-FPM;1580733076
+[1580733088] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;PHP-FPM;1580733087
+[1580733111] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;PHP-FPM;1580733109
+[1580733164] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;PHP-FPM;1580733163
+[1580733360] Caught SIGTERM, shutting down...
+[1580733360] Caught SIGTERM, shutting down...
+[1580733360] Caught SIGTERM, shutting down...
+[1580733360] Successfully shutdown... (PID=3317)
+[1580733475] Nagios 4.4.5 starting... (PID=3674)
+[1580733475] Local time is Mon Feb 03 12:37:55 UTC 2020
+[1580733475] LOG VERSION: 2.0
+[1580733475] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1580733475] qh: core query handler registered
+[1580733475] qh: echo service query handler registered
+[1580733475] qh: help for the query handler registered
+[1580733475] wproc: Successfully registered manager as @wproc with query handler
+[1580733475] wproc: Registry request: name=Core Worker 3675;pid=3675
+[1580733475] wproc: Registry request: name=Core Worker 3676;pid=3676
+[1580733475] wproc: Registry request: name=Core Worker 3677;pid=3677
+[1580733475] wproc: Registry request: name=Core Worker 3678;pid=3678
+[1580733475] Successfully launched command file worker with pid 3679
+[1580733529] Caught SIGTERM, shutting down...
+[1580733529] Caught SIGTERM, shutting down...
+[1580733529] Caught SIGTERM, shutting down...
+[1580733529] Successfully shutdown... (PID=3674)
+[1580733529] Nagios 4.4.5 starting... (PID=3700)
+[1580733529] Local time is Mon Feb 03 12:38:49 UTC 2020
+[1580733529] LOG VERSION: 2.0
+[1580733529] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1580733529] qh: core query handler registered
+[1580733529] qh: echo service query handler registered
+[1580733529] qh: help for the query handler registered
+[1580733529] wproc: Successfully registered manager as @wproc with query handler
+[1580733529] wproc: Registry request: name=Core Worker 3701;pid=3701
+[1580733529] wproc: Registry request: name=Core Worker 3702;pid=3702
+[1580733529] wproc: Registry request: name=Core Worker 3703;pid=3703
+[1580733529] wproc: Registry request: name=Core Worker 3704;pid=3704
+[1580733529] Successfully launched command file worker with pid 3705
+[1580733579] Caught SIGTERM, shutting down...
+[1580733579] Caught SIGTERM, shutting down...
+[1580733579] Caught SIGTERM, shutting down...
+[1580733579] Successfully shutdown... (PID=3700)
+[1580733579] Nagios 4.4.5 starting... (PID=3727)
+[1580733579] Local time is Mon Feb 03 12:39:39 UTC 2020
+[1580733579] LOG VERSION: 2.0
+[1580733579] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1580733579] qh: core query handler registered
+[1580733579] qh: echo service query handler registered
+[1580733579] qh: help for the query handler registered
+[1580733579] wproc: Successfully registered manager as @wproc with query handler
+[1580733579] wproc: Registry request: name=Core Worker 3728;pid=3728
+[1580733579] wproc: Registry request: name=Core Worker 3729;pid=3729
+[1580733579] wproc: Registry request: name=Core Worker 3730;pid=3730
+[1580733579] wproc: Registry request: name=Core Worker 3731;pid=3731
+[1580733579] Successfully launched command file worker with pid 3732
+[1580733705] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;PHP-FPM;1580733702
+[1580733712] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;PHP-FPM;1580733709
+[1580733791] Caught SIGTERM, shutting down...
+[1580733791] Caught SIGTERM, shutting down...
+[1580733791] Caught SIGTERM, shutting down...
+[1580733791] Successfully shutdown... (PID=3727)
+[1580733791] Nagios 4.4.5 starting... (PID=3787)
+[1580733791] Local time is Mon Feb 03 12:43:11 UTC 2020
+[1580733791] LOG VERSION: 2.0
+[1580733791] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1580733791] qh: core query handler registered
+[1580733791] qh: echo service query handler registered
+[1580733791] qh: help for the query handler registered
+[1580733791] wproc: Successfully registered manager as @wproc with query handler
+[1580733791] wproc: Registry request: name=Core Worker 3792;pid=3792
+[1580733791] wproc: Registry request: name=Core Worker 3789;pid=3789
+[1580733791] wproc: Registry request: name=Core Worker 3790;pid=3790
+[1580733791] wproc: Registry request: name=Core Worker 3791;pid=3791
+[1580733791] Successfully launched command file worker with pid 3793
+[1580733802] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;PHP-FPM;1580733801
+[1580733802] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;PHP-FPM;OK;notify-service-by-email;php-fpm is running fine!!!
+[1580733802] SERVICE ALERT: Dial4trade.in;PHP-FPM;OK;HARD;3;php-fpm is running fine!!!
+[1580733802] wproc: NOTIFY job 0 from worker Core Worker 3789 is a non-check helper but exited with return code 75
+[1580733802] wproc:   host=Dial4trade.in; service=PHP-FPM; contact=nagiosadmin
+[1580733802] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580733802] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580733802] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580733802] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580733802] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580733806] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;PHP-FPM;1580733805
+[1580733920] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;PHP-FPM;1580733919
+[1580733924] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;PHP-FPM;1580733923
+[1580734121] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;SSH Monitoring;1580734120
+[1580734431] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;SSH Monitoring;1580734430
+[1580734431] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;OK;notify-service-by-email;SSH OK - OpenSSH_7.4 (protocol 2.0)
+[1580734431] SERVICE ALERT: Dial4trade.in;SSH Monitoring;OK;HARD;3;SSH OK - OpenSSH_7.4 (protocol 2.0)
+[1580734431] wproc: NOTIFY job 9 from worker Core Worker 3792 is a non-check helper but exited with return code 75
+[1580734431] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1580734431] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580734431] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580734431] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580734431] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580734431] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580734435] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;SSH Monitoring;1580734434
+[1580734448] Caught SIGTERM, shutting down...
+[1580734448] Caught SIGTERM, shutting down...
+[1580734448] Caught SIGTERM, shutting down...
+[1580734448] Successfully shutdown... (PID=3787)
+[1580734448] Nagios 4.4.5 starting... (PID=3951)
+[1580734448] Local time is Mon Feb 03 12:54:08 UTC 2020
+[1580734448] LOG VERSION: 2.0
+[1580734448] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1580734448] qh: core query handler registered
+[1580734448] qh: echo service query handler registered
+[1580734448] qh: help for the query handler registered
+[1580734448] wproc: Successfully registered manager as @wproc with query handler
+[1580734448] wproc: Registry request: name=Core Worker 3958;pid=3958
+[1580734448] wproc: Registry request: name=Core Worker 3959;pid=3959
+[1580734448] wproc: Registry request: name=Core Worker 3953;pid=3953
+[1580734448] wproc: Registry request: name=Core Worker 3957;pid=3957
+[1580734448] Successfully launched command file worker with pid 3962
+[1580734504] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;SSH Monitoring;1580734503
+[1580734514] SERVICE ALERT: Dial4trade.in;SSH Monitoring;CRITICAL;SOFT;1;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1580734516] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dial4trade.in;SSH Monitoring;1580734513
+[1580734526] SERVICE ALERT: Dial4trade.in;SSH Monitoring;CRITICAL;SOFT;2;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1580734656] SERVICE FLAPPING ALERT: Dial4trade.in;SSH Monitoring;STARTED; Service appears to have started flapping (22.1% change >= 20.0% threshold)
+[1580734656] SERVICE ALERT: Dial4trade.in;SSH Monitoring;CRITICAL;HARD;3;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1580738048] Auto-save of retention data completed successfully.
+[1580741648] Auto-save of retention data completed successfully.
+[1580745248] Auto-save of retention data completed successfully.
+[1580745466] SERVICE FLAPPING ALERT: Dial4trade.in;SSH Monitoring;STOPPED; Service appears to have stopped flapping (3.9% change < 5.0% threshold)
+[1580745466] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1580745466] wproc: NOTIFY job 143 from worker Core Worker 3959 is a non-check helper but exited with return code 75
+[1580745466] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1580745466] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580745466] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580745466] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580745466] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580745466] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580748848] Auto-save of retention data completed successfully.
+[1580749066] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1580749066] wproc: NOTIFY job 190 from worker Core Worker 3958 is a non-check helper but exited with return code 75
+[1580749066] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1580749066] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580749066] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580749066] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580749066] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580749066] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580752448] Auto-save of retention data completed successfully.
+[1580752666] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1580752666] wproc: NOTIFY job 236 from worker Core Worker 3957 is a non-check helper but exited with return code 75
+[1580752666] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1580752666] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580752666] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580752666] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580752666] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580752666] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580756048] Auto-save of retention data completed successfully.
+[1580756266] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1580756266] wproc: NOTIFY job 283 from worker Core Worker 3953 is a non-check helper but exited with return code 75
+[1580756266] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1580756266] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580756266] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580756266] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580756266] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580756266] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580759648] Auto-save of retention data completed successfully.
+[1580759866] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1580759866] wproc: NOTIFY job 330 from worker Core Worker 3959 is a non-check helper but exited with return code 75
+[1580759866] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1580759866] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580759866] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580759866] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580759866] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580759866] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580763248] Auto-save of retention data completed successfully.
+[1580763466] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1580763466] wproc: NOTIFY job 377 from worker Core Worker 3958 is a non-check helper but exited with return code 75
+[1580763466] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1580763466] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580763466] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580763466] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580763466] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580763466] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580766848] Auto-save of retention data completed successfully.
+[1580767066] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1580767066] wproc: NOTIFY job 423 from worker Core Worker 3957 is a non-check helper but exited with return code 75
+[1580767066] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1580767066] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580767066] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580767066] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580767066] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580767066] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580770448] Auto-save of retention data completed successfully.
+[1580770666] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1580770666] wproc: NOTIFY job 470 from worker Core Worker 3953 is a non-check helper but exited with return code 75
+[1580770666] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1580770666] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580770666] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580770666] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580770666] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580770666] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580774048] Auto-save of retention data completed successfully.
+[1580774266] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1580774266] wproc: NOTIFY job 517 from worker Core Worker 3959 is a non-check helper but exited with return code 75
+[1580774266] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1580774266] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1580774266] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1580774266] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1580774266] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1580774266] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1580893354] Caught SIGTERM, shutting down...

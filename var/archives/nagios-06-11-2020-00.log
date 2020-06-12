@@ -1,0 +1,236 @@
+[1591747200] LOG ROTATION: DAILY
+[1591747200] LOG VERSION: 2.0
+[1591747200] CURRENT HOST STATE: Dial4trade.in;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.81 ms
+[1591747200] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1591747200] CURRENT SERVICE STATE: Dial4trade.in;Apache Monitoring;OK;HARD;1;httpd is runing ! ! !
+[1591747200] CURRENT SERVICE STATE: Dial4trade.in;CPU Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1591747200] CURRENT SERVICE STATE: Dial4trade.in;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1591747200] CURRENT SERVICE STATE: Dial4trade.in;FTP Monitoring;OK;HARD;1;vsftpd is running fine ! ! !
+[1591747200] CURRENT SERVICE STATE: Dial4trade.in;Memory monitoring;OK;HARD;1;51.31%
+[1591747200] CURRENT SERVICE STATE: Dial4trade.in;PHP-FPM;OK;HARD;1;php-fpm is running fine ! ! !
+[1591747200] CURRENT SERVICE STATE: Dial4trade.in;ROOT monitoring;OK;HARD;1;OK - 32% of disk space used.
+[1591747200] CURRENT SERVICE STATE: Dial4trade.in;SSH Monitoring;CRITICAL;HARD;3;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1591747200] CURRENT SERVICE STATE: Dial4trade.in;SWAP Monitoring;OK;HARD;1;SWAP OK - 98% free (1995 MB out of 2047 MB)
+[1591747200] CURRENT SERVICE STATE: Dial4trade.in;Total Processes;OK;HARD;1;PROCS OK: 128 processes
+[1591747200] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.05
+[1591747200] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1591747200] CURRENT SERVICE STATE: localhost;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 296 bytes in 0.000 second response time
+[1591747200] CURRENT SERVICE STATE: localhost;Memory monitoring;OK;HARD;1;10.11%
+[1591747200] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1591747200] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 8351 MB (81.64% inode=99%):
+[1591747200] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.4 (protocol 2.0)
+[1591747200] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (511 MB out of 511 MB)
+[1591747200] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 33 processes with STATE = RSZDT
+[1591747803] Auto-save of retention data completed successfully.
+[1591747944] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1591747944] wproc: NOTIFY job 145511 from worker Core Worker 23139 is a non-check helper but exited with return code 75
+[1591747944] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1591747944] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1591747944] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1591747944] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1591747944] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1591747944] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1591751403] Auto-save of retention data completed successfully.
+[1591751544] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1591751544] wproc: NOTIFY job 145559 from worker Core Worker 23140 is a non-check helper but exited with return code 75
+[1591751544] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1591751544] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1591751544] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1591751544] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1591751544] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1591751544] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1591755003] Auto-save of retention data completed successfully.
+[1591755144] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1591755144] wproc: NOTIFY job 145608 from worker Core Worker 23141 is a non-check helper but exited with return code 75
+[1591755144] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1591755144] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1591755144] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1591755144] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1591755144] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1591758603] Auto-save of retention data completed successfully.
+[1591758744] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1591758744] wproc: NOTIFY job 145656 from worker Core Worker 23142 is a non-check helper but exited with return code 75
+[1591758744] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1591758744] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1591758744] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1591758744] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1591758744] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1591758744] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1591762203] Auto-save of retention data completed successfully.
+[1591762344] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1591762344] wproc: NOTIFY job 145704 from worker Core Worker 23139 is a non-check helper but exited with return code 75
+[1591762344] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1591762344] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1591762344] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1591762344] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1591762344] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1591762344] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1591765803] Auto-save of retention data completed successfully.
+[1591765944] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1591765944] wproc: NOTIFY job 145752 from worker Core Worker 23140 is a non-check helper but exited with return code 75
+[1591765944] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1591765944] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1591765944] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1591765944] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1591765944] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1591769403] Auto-save of retention data completed successfully.
+[1591769544] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1591769544] wproc: NOTIFY job 145801 from worker Core Worker 23141 is a non-check helper but exited with return code 75
+[1591769544] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1591769544] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1591769544] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1591769544] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1591769544] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1591769544] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1591773003] Auto-save of retention data completed successfully.
+[1591773144] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1591773144] wproc: NOTIFY job 145849 from worker Core Worker 23142 is a non-check helper but exited with return code 75
+[1591773144] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1591773144] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1591773144] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1591773144] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1591773144] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1591773144] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1591776603] Auto-save of retention data completed successfully.
+[1591776744] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1591776744] wproc: NOTIFY job 145897 from worker Core Worker 23139 is a non-check helper but exited with return code 75
+[1591776744] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1591776744] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1591776744] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1591776744] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1591776744] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1591776744] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1591780203] Auto-save of retention data completed successfully.
+[1591780344] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1591780344] wproc: NOTIFY job 145945 from worker Core Worker 23140 is a non-check helper but exited with return code 75
+[1591780344] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1591780344] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1591780344] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1591780344] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1591780344] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1591780344] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1591783803] Auto-save of retention data completed successfully.
+[1591783944] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1591783944] wproc: NOTIFY job 145994 from worker Core Worker 23141 is a non-check helper but exited with return code 75
+[1591783944] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1591783944] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1591783944] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1591783944] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1591783944] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1591783944] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1591787403] Auto-save of retention data completed successfully.
+[1591787544] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1591787544] wproc: NOTIFY job 146042 from worker Core Worker 23142 is a non-check helper but exited with return code 75
+[1591787544] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1591787544] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1591787544] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1591787544] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1591787544] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1591787544] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1591791003] Auto-save of retention data completed successfully.
+[1591791144] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1591791144] wproc: NOTIFY job 146090 from worker Core Worker 23139 is a non-check helper but exited with return code 75
+[1591791144] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1591791144] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1591791144] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1591791144] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1591791144] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1591791144] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1591794603] Auto-save of retention data completed successfully.
+[1591794744] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1591794744] wproc: NOTIFY job 146138 from worker Core Worker 23140 is a non-check helper but exited with return code 75
+[1591794744] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1591794744] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1591794744] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1591794744] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1591794744] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1591794744] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1591798203] Auto-save of retention data completed successfully.
+[1591798344] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1591798344] wproc: NOTIFY job 146187 from worker Core Worker 23141 is a non-check helper but exited with return code 75
+[1591798344] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1591798344] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1591798344] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1591798344] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1591798344] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1591798344] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1591801803] Auto-save of retention data completed successfully.
+[1591801944] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1591801944] wproc: NOTIFY job 146235 from worker Core Worker 23142 is a non-check helper but exited with return code 75
+[1591801944] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1591801944] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1591801944] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1591801944] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1591801944] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1591801944] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1591805403] Auto-save of retention data completed successfully.
+[1591805544] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1591805544] wproc: NOTIFY job 146283 from worker Core Worker 23139 is a non-check helper but exited with return code 75
+[1591805544] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1591805544] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1591805544] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1591805544] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1591805544] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1591805544] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1591809003] Auto-save of retention data completed successfully.
+[1591809144] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1591809144] wproc: NOTIFY job 146331 from worker Core Worker 23140 is a non-check helper but exited with return code 75
+[1591809144] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1591809144] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1591809144] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1591809144] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1591809144] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1591809144] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1591812603] Auto-save of retention data completed successfully.
+[1591812744] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1591812744] wproc: NOTIFY job 146380 from worker Core Worker 23141 is a non-check helper but exited with return code 75
+[1591812744] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1591812744] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1591812744] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1591812744] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1591812744] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1591812744] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1591816203] Auto-save of retention data completed successfully.
+[1591816344] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1591816344] wproc: NOTIFY job 146428 from worker Core Worker 23142 is a non-check helper but exited with return code 75
+[1591816344] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1591816344] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1591816344] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1591816344] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1591816344] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1591816344] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1591819803] Auto-save of retention data completed successfully.
+[1591819944] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1591819944] wproc: NOTIFY job 146476 from worker Core Worker 23139 is a non-check helper but exited with return code 75
+[1591819944] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1591819944] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1591819944] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1591819944] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1591819944] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1591819944] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1591823403] Auto-save of retention data completed successfully.
+[1591823544] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1591823544] wproc: NOTIFY job 146524 from worker Core Worker 23140 is a non-check helper but exited with return code 75
+[1591823544] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1591823544] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1591823544] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1591823544] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1591823544] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1591827003] Auto-save of retention data completed successfully.
+[1591827144] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1591827144] wproc: NOTIFY job 146573 from worker Core Worker 23141 is a non-check helper but exited with return code 75
+[1591827144] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1591827144] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1591827144] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1591827144] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1591827144] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1591827144] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe
+[1591830603] Auto-save of retention data completed successfully.
+[1591830744] SERVICE NOTIFICATION: nagiosadmin;Dial4trade.in;SSH Monitoring;CRITICAL;notify-service-by-email;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+[1591830744] wproc: NOTIFY job 146621 from worker Core Worker 23142 is a non-check helper but exited with return code 75
+[1591830744] wproc:   host=Dial4trade.in; service=SSH Monitoring; contact=nagiosadmin
+[1591830744] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1591830744] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1591830744] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1591830744] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1591830744] wproc:   stderr line 04: /usr/bin/printf: write error: Broken pipe

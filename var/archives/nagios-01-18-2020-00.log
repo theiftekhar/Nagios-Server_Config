@@ -1,0 +1,205 @@
+[1579261447] Nagios 4.4.5 starting... (PID=13280)
+[1579261447] Local time is Fri Jan 17 11:44:07 UTC 2020
+[1579261447] LOG VERSION: 2.0
+[1579261447] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1579261447] qh: core query handler registered
+[1579261447] qh: echo service query handler registered
+[1579261447] qh: help for the query handler registered
+[1579261447] wproc: Successfully registered manager as @wproc with query handler
+[1579261447] wproc: Registry request: name=Core Worker 13285;pid=13285
+[1579261447] wproc: Registry request: name=Core Worker 13282;pid=13282
+[1579261447] wproc: Registry request: name=Core Worker 13283;pid=13283
+[1579261447] wproc: Registry request: name=Core Worker 13284;pid=13284
+[1579261448] Successfully launched command file worker with pid 13286
+[1579261559] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;1;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time
+[1579261619] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;2;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time
+[1579261679] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;3;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time
+[1579261709] SERVICE ALERT: localhost;Swap Usage;CRITICAL;SOFT;1;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1579261739] SERVICE ALERT: localhost;HTTP;WARNING;HARD;4;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time
+[1579261769] SERVICE ALERT: localhost;Swap Usage;CRITICAL;SOFT;2;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1579261829] SERVICE ALERT: localhost;Swap Usage;CRITICAL;SOFT;3;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1579261889] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1579261889] SERVICE ALERT: localhost;Swap Usage;CRITICAL;HARD;4;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1579261890] wproc: NOTIFY job 4 from worker Core Worker 13284 is a non-check helper but exited with return code 75
+[1579261890] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1579261890] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1579261890] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1579261890] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1579261890] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1579262282] Caught SIGTERM, shutting down...
+[1579262282] Caught SIGTERM, shutting down...
+[1579262282] Caught SIGTERM, shutting down...
+[1579262282] Successfully shutdown... (PID=13280)
+[1579262437] Nagios 4.4.5 starting... (PID=17601)
+[1579262437] Local time is Fri Jan 17 12:00:37 UTC 2020
+[1579262437] LOG VERSION: 2.0
+[1579262437] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1579262437] qh: core query handler registered
+[1579262437] qh: echo service query handler registered
+[1579262437] qh: help for the query handler registered
+[1579262437] wproc: Successfully registered manager as @wproc with query handler
+[1579262437] wproc: Registry request: name=Core Worker 17603;pid=17603
+[1579262437] wproc: Registry request: name=Core Worker 17604;pid=17604
+[1579262437] wproc: Registry request: name=Core Worker 17605;pid=17605
+[1579262437] wproc: Registry request: name=Core Worker 17602;pid=17602
+[1579262437] Successfully launched command file worker with pid 17606
+[1579262440] Caught SIGTERM, shutting down...
+[1579262440] Caught SIGTERM, shutting down...
+[1579262440] Caught SIGTERM, shutting down...
+[1579262440] Successfully shutdown... (PID=17601)
+[1579262440] Nagios 4.4.5 starting... (PID=17622)
+[1579262440] Local time is Fri Jan 17 12:00:40 UTC 2020
+[1579262440] LOG VERSION: 2.0
+[1579262440] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1579262440] qh: core query handler registered
+[1579262440] qh: echo service query handler registered
+[1579262440] qh: help for the query handler registered
+[1579262440] wproc: Successfully registered manager as @wproc with query handler
+[1579262440] wproc: Registry request: name=Core Worker 17623;pid=17623
+[1579262440] wproc: Registry request: name=Core Worker 17624;pid=17624
+[1579262440] wproc: Registry request: name=Core Worker 17625;pid=17625
+[1579262440] wproc: Registry request: name=Core Worker 17626;pid=17626
+[1579262440] Successfully launched command file worker with pid 17627
+[1579262863] Caught SIGTERM, shutting down...
+[1579262863] Caught SIGTERM, shutting down...
+[1579262863] Caught SIGTERM, shutting down...
+[1579262863] Successfully shutdown... (PID=17622)
+[1579262863] Nagios 4.4.5 starting... (PID=17707)
+[1579262863] Local time is Fri Jan 17 12:07:43 UTC 2020
+[1579262863] LOG VERSION: 2.0
+[1579262863] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1579262863] qh: core query handler registered
+[1579262863] qh: echo service query handler registered
+[1579262863] qh: help for the query handler registered
+[1579262863] wproc: Successfully registered manager as @wproc with query handler
+[1579262863] wproc: Registry request: name=Core Worker 17712;pid=17712
+[1579262863] wproc: Registry request: name=Core Worker 17709;pid=17709
+[1579262863] wproc: Registry request: name=Core Worker 17710;pid=17710
+[1579262863] wproc: Registry request: name=Core Worker 17711;pid=17711
+[1579262863] Successfully launched command file worker with pid 17713
+[1579262882] Caught SIGTERM, shutting down...
+[1579262882] Caught SIGTERM, shutting down...
+[1579262882] Caught SIGTERM, shutting down...
+[1579262882] Successfully shutdown... (PID=17707)
+[1579263195] Nagios 4.4.5 starting... (PID=4033)
+[1579263195] Local time is Fri Jan 17 12:13:15 UTC 2020
+[1579263195] LOG VERSION: 2.0
+[1579263195] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1579263195] qh: core query handler registered
+[1579263195] qh: echo service query handler registered
+[1579263195] qh: help for the query handler registered
+[1579263195] wproc: Successfully registered manager as @wproc with query handler
+[1579263195] wproc: Registry request: name=Core Worker 4035;pid=4035
+[1579263195] wproc: Registry request: name=Core Worker 4036;pid=4036
+[1579263195] wproc: Registry request: name=Core Worker 4037;pid=4037
+[1579263195] wproc: Registry request: name=Core Worker 4034;pid=4034
+[1579263195] Successfully launched command file worker with pid 4038
+[1579263200] Caught SIGTERM, shutting down...
+[1579263200] Caught SIGTERM, shutting down...
+[1579263200] Caught SIGTERM, shutting down...
+[1579263200] Successfully shutdown... (PID=4033)
+[1579263200] Nagios 4.4.5 starting... (PID=4054)
+[1579263200] Local time is Fri Jan 17 12:13:20 UTC 2020
+[1579263200] LOG VERSION: 2.0
+[1579263200] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1579263200] qh: core query handler registered
+[1579263200] qh: echo service query handler registered
+[1579263200] qh: help for the query handler registered
+[1579263200] wproc: Successfully registered manager as @wproc with query handler
+[1579263200] wproc: Registry request: name=Core Worker 4055;pid=4055
+[1579263200] wproc: Registry request: name=Core Worker 4056;pid=4056
+[1579263200] wproc: Registry request: name=Core Worker 4057;pid=4057
+[1579263200] wproc: Registry request: name=Core Worker 4058;pid=4058
+[1579263200] Successfully launched command file worker with pid 4059
+[1579263218] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;localhost;Memory monitoring;1579263216
+[1579263225] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;localhost;Memory monitoring;1579263224
+[1579263396] Caught SIGTERM, shutting down...
+[1579263396] Caught SIGTERM, shutting down...
+[1579263396] Caught SIGTERM, shutting down...
+[1579263396] Successfully shutdown... (PID=4054)
+[1579263396] Nagios 4.4.5 starting... (PID=4142)
+[1579263396] Local time is Fri Jan 17 12:16:36 UTC 2020
+[1579263396] LOG VERSION: 2.0
+[1579263396] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1579263396] qh: core query handler registered
+[1579263396] qh: echo service query handler registered
+[1579263396] qh: help for the query handler registered
+[1579263396] wproc: Successfully registered manager as @wproc with query handler
+[1579263396] wproc: Registry request: name=Core Worker 4146;pid=4146
+[1579263396] wproc: Registry request: name=Core Worker 4147;pid=4147
+[1579263396] wproc: Registry request: name=Core Worker 4144;pid=4144
+[1579263396] wproc: Registry request: name=Core Worker 4145;pid=4145
+[1579263396] Successfully launched command file worker with pid 4148
+[1579263402] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;localhost;HTTP;1579263401
+[1579263402] SERVICE ALERT: localhost;HTTP;OK;HARD;4;HTTP OK: HTTP/1.1 200 OK - 296 bytes in 0.001 second response time
+[1579263409] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;localhost;HTTP;1579263408
+[1579263730] Caught SIGTERM, shutting down...
+[1579263730] Successfully shutdown... (PID=4142)
+[1579263775] Nagios 4.4.5 starting... (PID=3800)
+[1579263775] Local time is Fri Jan 17 12:22:55 UTC 2020
+[1579263775] LOG VERSION: 2.0
+[1579263775] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1579263775] qh: core query handler registered
+[1579263775] qh: echo service query handler registered
+[1579263775] qh: help for the query handler registered
+[1579263775] wproc: Successfully registered manager as @wproc with query handler
+[1579263775] wproc: Registry request: name=Core Worker 3805;pid=3805
+[1579263775] wproc: Registry request: name=Core Worker 3804;pid=3804
+[1579263775] wproc: Registry request: name=Core Worker 3806;pid=3806
+[1579263775] wproc: Registry request: name=Core Worker 3807;pid=3807
+[1579263775] Successfully launched command file worker with pid 3808
+[1579263797] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;localhost;Swap Usage;1579263796
+[1579263797] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;OK;notify-service-by-email;SWAP OK - 100% free (511 MB out of 511 MB)
+[1579263797] SERVICE ALERT: localhost;Swap Usage;OK;HARD;4;SWAP OK - 100% free (511 MB out of 511 MB)
+[1579263797] wproc: NOTIFY job 0 from worker Core Worker 3807 is a non-check helper but exited with return code 75
+[1579263797] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1579263797] wproc:   early_timeout=0; exited_ok=1; wait_status=19200; error_code=0;
+[1579263797] wproc:   stderr line 01: sendmail: invalid option -- 's'
+[1579263797] wproc:   stderr line 02: sendmail: invalid option -- 's'
+[1579263797] wproc:   stderr line 03: sendmail: fatal: usage: sendmail [options]
+[1579263802] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;localhost;Swap Usage;1579263801
+[1579265146] Caught SIGTERM, shutting down...
+[1579265146] Caught SIGTERM, shutting down...
+[1579265146] Caught SIGTERM, shutting down...
+[1579265146] Successfully shutdown... (PID=3800)
+[1579265146] Nagios 4.4.5 starting... (PID=4198)
+[1579265146] Local time is Fri Jan 17 12:45:46 UTC 2020
+[1579265146] LOG VERSION: 2.0
+[1579265146] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1579265146] qh: core query handler registered
+[1579265146] qh: echo service query handler registered
+[1579265146] qh: help for the query handler registered
+[1579265146] wproc: Successfully registered manager as @wproc with query handler
+[1579265146] wproc: Registry request: name=Core Worker 4202;pid=4202
+[1579265146] wproc: Registry request: name=Core Worker 4203;pid=4203
+[1579265146] wproc: Registry request: name=Core Worker 4200;pid=4200
+[1579265146] wproc: Registry request: name=Core Worker 4201;pid=4201
+[1579265146] Successfully launched command file worker with pid 4204
+[1579265221] Caught SIGTERM, shutting down...
+[1579265221] Successfully shutdown... (PID=4198)
+[1579265270] Nagios 4.4.5 starting... (PID=3796)
+[1579265270] Local time is Fri Jan 17 12:47:50 UTC 2020
+[1579265270] LOG VERSION: 2.0
+[1579265270] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1579265270] qh: core query handler registered
+[1579265270] qh: echo service query handler registered
+[1579265270] qh: help for the query handler registered
+[1579265270] wproc: Successfully registered manager as @wproc with query handler
+[1579265270] wproc: Registry request: name=Core Worker 3800;pid=3800
+[1579265270] wproc: Registry request: name=Core Worker 3799;pid=3799
+[1579265270] wproc: Registry request: name=Core Worker 3797;pid=3797
+[1579265270] wproc: Registry request: name=Core Worker 3798;pid=3798
+[1579265270] Successfully launched command file worker with pid 3801
+[1579265558] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;localhost;HTTP;1579265556
+[1579268870] Auto-save of retention data completed successfully.
+[1579272470] Auto-save of retention data completed successfully.
+[1579276070] Auto-save of retention data completed successfully.
+[1579279670] Auto-save of retention data completed successfully.
+[1579283270] Auto-save of retention data completed successfully.
+[1579286870] Auto-save of retention data completed successfully.
+[1579290470] Auto-save of retention data completed successfully.
+[1579294070] Auto-save of retention data completed successfully.
+[1579297670] Auto-save of retention data completed successfully.
+[1579301270] Auto-save of retention data completed successfully.
+[1579304870] Auto-save of retention data completed successfully.
+[1579338998] Caught SIGTERM, shutting down...
